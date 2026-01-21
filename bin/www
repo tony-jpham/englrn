@@ -39,7 +39,7 @@ connectDB();
 // Convert cron time  0 7 * * * from UTC to +7 timezone
 const convertCronTime = (cronExpression) => {
   const [second,minute, hour, day, month, dayOfWeek] = cronExpression.split(' ');
-  const newHour = (parseInt(hour) + 7) % 24;
+  const newHour = (parseInt(hour) - 7) % 24;
   return `${second} ${minute} ${newHour} ${day} ${month} ${dayOfWeek}`;
 };
 
