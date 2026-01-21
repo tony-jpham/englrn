@@ -8,10 +8,14 @@ var app = require('../app');
 var debug = require('debug')('englrn-backend:server');
 var http = require('http');
 const cron = require('node-cron');
+const moment = require("moment");
 
 const {sendVocab} = require("../jobs/SendVocab");
 
 const connectDB = require("../config/db");
+
+// Set moment default timezone to +7
+moment.tz.setDefault("Asia/Ho_Chi_Minh");
 
 
 
@@ -26,12 +30,21 @@ app.set('port', port);
 // Connect MongoDB
 connectDB();
 
-sendVocab();
+
 
 
 // Start a cron job
-const sendDailyWordTask = cron.schedule('0 0 7 * * *', () => {
+
+// Convert cron time  0 7 * * * from UTC to +7 timezone
+const convertCronTime = (cronExpression) => {
+  const [second,minute, hour, day, month, dayOfWeek] = cronExpression.split(' ');
+  const newHour = (parseInt(hour) + 7) % 24;
+  return `${second} ${minute} ${newHour} ${day} ${month} ${dayOfWeek}`;
+};
+
+const sendDailyWordTask = cron.schedule(convertCronTime('0 0 7 * * *'), () => {
   // console.log('Cron job running every minute at', new Date().toLocaleTimeString());
+  sendVocab();
 });
 
 const taskStatus = sendDailyWordTask.getStatus();
