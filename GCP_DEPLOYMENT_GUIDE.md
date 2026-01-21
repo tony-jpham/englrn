@@ -1,26 +1,26 @@
-# Hướng Dẫn Deploy EnglRN trên Google Cloud Platform (GCP)
+# EnglRN Deployment Guide on Google Cloud Platform (GCP)
 
-## 📋 Mục Lục
-1. [Chuẩn Bị](#chuẩn-bị)
-2. [Tạo GCP Project](#tạo-gcp-project)
-3. [Tạo Compute Engine VM](#tạo-compute-engine-vm)
-4. [Cài Đặt Dependencies](#cài-đặt-dependencies)
-5. [Deploy Ứng Dụng](#deploy-ứng-dụng)
-6. [Cấu Hình Production](#cấu-hình-production)
+## 📋 Table of Contents
+1. [Preparation](#preparation)
+2. [Create GCP Project](#create-gcp-project)
+3. [Create Compute Engine VM](#create-compute-engine-vm)
+4. [Install Dependencies](#install-dependencies)
+5. [Deploy Application](#deploy-application)
+6. [Production Configuration](#production-configuration)
 7. [Monitoring & Logging](#monitoring--logging)
 8. [Troubleshooting](#troubleshooting)
 
 ---
 
-## 🛠️ Chuẩn Bị
+## 🛠️ Preparation
 
-### Yêu Cầu
+### Requirements
 - ✅ Google Account
-- ✅ GCP Project (có thể tạo mới)
-- ✅ Billing enabled trên GCP
-- ✅ GCP CLI installed (optional nhưng recommended)
+- ✅ GCP Project (can create new)
+- ✅ Billing enabled on GCP
+- ✅ GCP CLI installed (optional but recommended)
 
-### Cài Đặt GCP CLI (Local Machine)
+### Install GCP CLI (Local Machine)
 ```bash
 # macOS
 brew install google-cloud-sdk
@@ -36,23 +36,23 @@ gcloud config set project YOUR_PROJECT_ID
 
 ---
 
-## 🌐 Tạo GCP Project
+## 🌐 Create GCP Project
 
-### Bước 1: Tạo Project trên GCP Console
+### Step 1: Create Project on GCP Console
 
 ```bash
-# Hoặc sử dụng CLI
+# Or use CLI
 gcloud projects create englrn-deployment --name="EnglRN Deployment"
 gcloud config set project englrn-deployment
 ```
 
-### Bước 2: Enable Required APIs
+### Step 2: Enable Required APIs
 
 ```bash
 # Enable Compute Engine API
 gcloud services enable compute.googleapis.com
 
-# Enable Cloud Build API (optional, cho CI/CD)
+# Enable Cloud Build API (optional, for CI/CD)
 gcloud services enable cloudbuild.googleapis.com
 
 # Enable Container Registry (optional)
@@ -61,12 +61,12 @@ gcloud services enable containerregistry.googleapis.com
 
 ---
 
-## 🖥️ Tạo Compute Engine VM
+## 🖥️ Create Compute Engine VM
 
-### Bước 1: Tạo VM Instance qua CLI (Recommended)
+### Step 1: Create VM Instance via CLI (Recommended)
 
 ```bash
-# Tạo VM instance
+# Create VM instance
 gcloud compute instances create englrn-server \
   --zone=asia-southeast1-a \
   --machine-type=e2-micro \
@@ -76,11 +76,11 @@ gcloud compute instances create englrn-server \
   --tags=http-server,https-server \
   --scopes=default,cloud-platform
 
-# Hoặc e2-small nếu cần performance tốt hơn
+# Or e2-small if you need better performance
 # --machine-type=e2-small \
 ```
 
-### Bước 2: Cấu Hình Firewall
+### Step 2: Configure Firewall
 
 ```bash
 # Allow HTTP traffic
@@ -95,13 +95,13 @@ gcloud compute firewall-rules create allow-https \
   --source-ranges=0.0.0.0/0 \
   --target-tags=https-server
 
-# Allow SSH (tự động được enable)
+# Allow SSH (automatically enabled)
 gcloud compute firewall-rules create allow-ssh \
   --allow=tcp:22 \
   --source-ranges=0.0.0.0/0
 ```
 
-### Bước 3: Lấy IP Address
+### Step 3: Get IP Address
 
 ```bash
 gcloud compute instances describe englrn-server \
@@ -111,19 +111,19 @@ gcloud compute instances describe englrn-server \
 
 ---
 
-## 🔗 SSH vào VM
+## 🔗 SSH into VM
 
-### Bước 1: Kết Nối SSH
+### Step 1: Connect via SSH
 
 ```bash
-# Sử dụng gcloud CLI (recommended)
+# Use gcloud CLI (recommended)
 gcloud compute ssh englrn-server --zone=asia-southeast1-a
 
-# Hoặc SSH thông thường
+# Or use SSH directly
 ssh -i ~/.ssh/gcp_key ubuntu@YOUR_EXTERNAL_IP
 ```
 
-### Bước 2: Update System
+### Step 2: Update System
 
 ```bash
 sudo apt update
@@ -132,16 +132,16 @@ sudo apt upgrade -y
 
 ---
 
-## 📦 Cài Đặt Dependencies
+## 📦 Install Dependencies
 
-### Bước 1: Cài Đặt Docker
+### Step 1: Install Docker
 
 ```bash
-# Cài Docker
+# Install Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
-# Thêm user hiện tại vào docker group
+# Add current user to docker group
 sudo usermod -aG docker $USER
 newgrp docker
 
@@ -149,27 +149,27 @@ newgrp docker
 docker --version
 ```
 
-### Bước 2: Cài Đặt Docker Compose
+### Step 2: Install Docker Compose
 
 ```bash
 # Download Docker Compose
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-# Thêm permission
+# Add permission
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Verify
 docker-compose --version
 ```
 
-### Bước 3: Cài Đặt Git
+### Step 3: Install Git
 
 ```bash
 sudo apt install -y git
 git --version
 ```
 
-### Bước 4: Cài Đặt Node.js (Optional, nếu cần run scripts)
+### Step 4: Install Node.js (Optional, if you need to run scripts)
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
@@ -180,23 +180,23 @@ npm --version
 
 ---
 
-## 🚀 Deploy Ứng Dụng
+## 🚀 Deploy Application
 
-### Bước 1: Clone Repository
+### Step 1: Clone Repository
 
 ```bash
-# Tạo working directory
+# Create working directory
 mkdir -p ~/projects
 cd ~/projects
 
-# Clone dự án
+# Clone project
 git clone https://github.com/yourusername/englrn.git
 cd englrn
 ```
 
-### Bước 2: Cấu Hình Environment Variables
+### Step 2: Configure Environment Variables
 
-#### Cách 1: Sử dụng echo (Nhanh nhất - Không cần cài đặt editor)
+#### Method 1: Using echo (Fastest - No editor installation needed)
 
 ```bash
 cat > .env << 'EOF'
@@ -209,22 +209,22 @@ NODE_ENV=production
 EOF
 ```
 
-**Xác nhận:**
+**Verify:**
 ```bash
 cat .env
 ```
 
-#### Cách 2: Sử dụng nano (Cần cài đặt)
+#### Method 2: Using nano (Installation required)
 
 ```bash
-# Nếu nano không có, cài đặt trước
+# If nano is not available, install first
 sudo apt install -y nano
 
-# Tạo & edit .env
+# Create & edit .env
 nano .env
 ```
 
-Nhập nội dung sau:
+Enter the following content:
 ```env
 PORT=8080
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/englrn
@@ -234,22 +234,22 @@ WORD_PER_DAY=10
 NODE_ENV=production
 ```
 
-**Lưu file:** `Ctrl+X` → `Y` → `Enter`
+**Save file:** `Ctrl+X` → `Y` → `Enter`
 
-#### Cách 3: Sử dụng vi/vim
+#### Method 3: Using vi/vim
 
 ```bash
 vi .env
 ```
 
-- Nhấn `i` để vào insert mode
-- Paste nội dung .env
-- Nhấn `Esc` rồi gõ `:wq` để lưu
+- Press `i` to enter insert mode
+- Paste .env content
+- Press `Esc` then type `:wq` to save
 
-#### Cách 4: Sử dụng cat với heredoc (Recommended)
+#### Method 4: Using cat with heredoc (Recommended)
 
 ```bash
-# Cách đơn giản nhất, không cần editor
+# Simplest method, no editor needed
 cat > .env <<EOF
 PORT=8080
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/englrn
@@ -259,35 +259,35 @@ WORD_PER_DAY=10
 NODE_ENV=production
 EOF
 
-# Kiểm tra file được tạo đúng
+# Verify file was created correctly
 cat .env
 
-# Hoặc xem file bằng less
+# Or view file with less
 less .env
 ```
 
-### Bước 3: Build Docker Image
+### Step 3: Build Docker Image
 
 ```bash
-# Đứng trong thư mục dự án
+# Navigate to project directory
 cd ~/projects/englrn
 
 # Build image
 docker-compose build
 
-# Hoặc build với tag cụ thể
+# Or build with specific tag
 docker build -t englrn-backend:v1.0 .
 ```
 
-**Lưu ý:** Bước này có thể mất 2-5 phút tùy vào tốc độ internet
+**Note:** This step may take 2-5 minutes depending on internet speed
 
-### Bước 4: Run Container
+### Step 4: Run Container
 
 ```bash
-# Sử dụng Docker Compose (Recommended)
+# Use Docker Compose (Recommended)
 docker-compose up -d
 
-# Hoặc run manual
+# Or run manually
 docker run -d \
   --name englrn-backend \
   -p 8080:8080 \
@@ -296,7 +296,7 @@ docker run -d \
   englrn-backend:v1.0
 ```
 
-### Bước 5: Kiểm Tra Container Status
+### Step 5: Check Container Status
 
 ```bash
 # List running containers
@@ -305,7 +305,7 @@ docker ps
 # View logs
 docker-compose logs -f englrn-app
 
-# Hoặc
+# Or
 docker logs -f englrn-backend
 ```
 
@@ -317,18 +317,18 @@ Server running on port 8080
 
 ---
 
-## 🔧 Cấu Hình Production
+## 🔧 Production Configuration
 
-### Bước 1: Cài Đặt Nginx (Reverse Proxy)
+### Step 1: Install Nginx (Reverse Proxy)
 
 ```bash
 sudo apt install -y nginx
 
-# Tạo config cho Nginx
+# Create Nginx config
 sudo nano /etc/nginx/sites-available/englrn
 ```
 
-Nhập nội dung:
+Enter the following content:
 ```nginx
 server {
     listen 80;
@@ -348,7 +348,7 @@ server {
 }
 ```
 
-**Lưu file:** `Ctrl+X` → `Y` → `Enter`
+**Save file:** `Ctrl+X` → `Y` → `Enter`
 
 ```bash
 # Enable site
@@ -362,26 +362,26 @@ sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
 
-### Bước 2: Setup SSL Certificate (Optional nhưng Recommended)
+### Step 2: Setup SSL Certificate (Optional but Recommended)
 
 ```bash
-# Cài Certbot
+# Install Certbot
 sudo apt install -y certbot python3-certbot-nginx
 
-# Lấy certificate
+# Get certificate
 sudo certbot --nginx -d YOUR_DOMAIN
 
 # Auto-renew
 sudo systemctl enable certbot.timer
 ```
 
-### Bước 3: Cấu Hình PM2 (Process Manager - Optional)
+### Step 3: Configure PM2 (Process Manager - Optional)
 
 ```bash
-# Cài PM2 globally
+# Install PM2 globally
 sudo npm install -g pm2
 
-# Tạo ecosystem.config.js
+# Create ecosystem.config.js
 cat > ~/projects/englrn/ecosystem.config.js << 'EOF'
 module.exports = {
   apps: [{
@@ -412,17 +412,17 @@ pm2 save
 
 ## 📊 Monitoring & Logging
 
-### Bước 1: View Real-time Logs
+### Step 1: View Real-time Logs
 
 ```bash
 # Docker Compose logs
 docker-compose logs -f englrn-app --tail=100
 
-# Hoặc Docker logs
+# Or Docker logs
 docker logs -f englrn-backend --tail=100
 ```
 
-### Bước 2: Monitor Container Status
+### Step 2: Monitor Container Status
 
 ```bash
 # Monitor dashboard
@@ -432,14 +432,14 @@ docker stats englrn-backend
 docker-compose ps
 ```
 
-### Bước 3: Setup Log Rotation
+### Step 3: Setup Log Rotation
 
 ```bash
-# Tạo log rotation config
+# Create log rotation config
 sudo nano /etc/logrotate.d/englrn
 ```
 
-Nhập:
+Enter the following:
 ```
 ~/projects/englrn/logs/*.log {
     daily
@@ -455,7 +455,7 @@ Nhập:
 }
 ```
 
-### Bước 4: Setup Cloud Logging (GCP)
+### Step 4: Setup Cloud Logging (GCP)
 
 ```bash
 # Install logging agent
@@ -469,9 +469,9 @@ sudo service google-cloud-ops-agent start
 
 ---
 
-## 🔄 Cập Nhật & Maintenance
+## 🔄 Updates & Maintenance
 
-### Bước 1: Deploy Update Mới
+### Step 1: Deploy New Updates
 
 ```bash
 cd ~/projects/englrn
@@ -489,7 +489,7 @@ docker-compose up -d
 docker-compose logs -f englrn-app
 ```
 
-### Bước 2: Backup Data
+### Step 2: Backup Data
 
 ```bash
 # Export MongoDB data
@@ -501,7 +501,7 @@ docker exec englrn-backend mongodump \
 gsutil -m cp -r ~/projects/englrn/backup gs://your-bucket/englrn-backup-$(date +%Y%m%d)
 ```
 
-### Bước 3: Cleanup Unused Resources
+### Step 3: Cleanup Unused Resources
 
 ```bash
 # Remove unused images
@@ -518,13 +518,13 @@ du -sh ~/projects/englrn
 
 ## 🆘 Troubleshooting
 
-### Container không start
+### Container won't start
 
 ```bash
 # Check logs
 docker-compose logs englrn-app
 
-# Kiểm tra environment variables
+# Check environment variables
 docker-compose config
 
 # Restart container
@@ -534,7 +534,7 @@ docker-compose restart englrn-app
 ### MongoDB Connection Error
 
 ```bash
-# Test connection từ trong container
+# Test connection from inside container
 docker exec englrn-backend node -e "
   const mongoose = require('mongoose');
   mongoose.connect(process.env.MONGODB_URI)
@@ -542,7 +542,7 @@ docker exec englrn-backend node -e "
     .catch(err => console.error('❌', err.message));
 "
 
-# Kiểm tra MONGODB_URI
+# Check MONGODB_URI
 docker exec englrn-backend echo $MONGODB_URI
 ```
 
@@ -558,13 +558,13 @@ curl -X POST $DISCORD_HOOK_URL \
 ### Port Already in Use
 
 ```bash
-# Kiểm tra port 8080
+# Check port 8080
 netstat -tulpn | grep 8080
 
 # Kill process
 sudo kill -9 PID
 
-# Hoặc change port trong docker-compose.yml
+# Or change port in docker-compose.yml
 ```
 
 ### Out of Disk Space
@@ -576,13 +576,13 @@ df -h
 # Clean Docker images
 docker system prune -a --volumes
 
-# Increase VM disk (nếu cần)
+# Increase VM disk (if needed)
 gcloud compute disks resize englrn-server --size=50GB --zone=asia-southeast1-a
 ```
 
 ---
 
-## 📝 Checklist Cuối Cùng
+## 📝 Final Checklist
 
 - [ ] VM instance created on GCP
 - [ ] Docker & Docker Compose installed
