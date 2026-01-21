@@ -196,8 +196,31 @@ cd englrn
 
 ### Bước 2: Cấu Hình Environment Variables
 
+#### Cách 1: Sử dụng echo (Nhanh nhất - Không cần cài đặt editor)
+
 ```bash
-# Tạo .env file
+cat > .env << 'EOF'
+PORT=8080
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/englrn
+DISCORD_HOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN
+ENG_LRN_AVATAR_URL=https://your-avatar-url.png
+WORD_PER_DAY=10
+NODE_ENV=production
+EOF
+```
+
+**Xác nhận:**
+```bash
+cat .env
+```
+
+#### Cách 2: Sử dụng nano (Cần cài đặt)
+
+```bash
+# Nếu nano không có, cài đặt trước
+sudo apt install -y nano
+
+# Tạo & edit .env
 nano .env
 ```
 
@@ -212,6 +235,36 @@ NODE_ENV=production
 ```
 
 **Lưu file:** `Ctrl+X` → `Y` → `Enter`
+
+#### Cách 3: Sử dụng vi/vim
+
+```bash
+vi .env
+```
+
+- Nhấn `i` để vào insert mode
+- Paste nội dung .env
+- Nhấn `Esc` rồi gõ `:wq` để lưu
+
+#### Cách 4: Sử dụng cat với heredoc (Recommended)
+
+```bash
+# Cách đơn giản nhất, không cần editor
+cat > .env <<EOF
+PORT=8080
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/englrn
+DISCORD_HOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN
+ENG_LRN_AVATAR_URL=https://your-avatar-url.png
+WORD_PER_DAY=10
+NODE_ENV=production
+EOF
+
+# Kiểm tra file được tạo đúng
+cat .env
+
+# Hoặc xem file bằng less
+less .env
+```
 
 ### Bước 3: Build Docker Image
 

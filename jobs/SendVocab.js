@@ -24,7 +24,7 @@ const sendVocab = async () => {
     console.log("Send Message Content:\n", messageContent);
 
     // Send message to user via Discord webhook
-    // sendDiscordMessage(messageContent);
+    sendDiscordMessage(messageContent);
 
     // Update last used date for sent words
     const ids = wordsToSend.map(word => word._id);
