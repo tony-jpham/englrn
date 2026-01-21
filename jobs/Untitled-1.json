@@ -1,0 +1,4232 @@
+[
+  {
+    "id": "biz_0001",
+    "term": "Collaborate",
+    "type": "verb",
+    "meaning_vi": "Cộng tác, hợp tác",
+    "tags": [
+      "teamwork",
+      "communication"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Our teams need to collaborate closely to finish the project on time.",
+        "vi": "Các đội của chúng ta cần cộng tác chặt chẽ để hoàn thành dự án đúng hạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0002",
+    "term": "Deadline",
+    "type": "noun",
+    "meaning_vi": "Hạn chót",
+    "tags": [
+      "management",
+      "time"
+    ],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The deadline for the monthly report is this Friday.",
+        "vi": "Hạn chót cho báo cáo hàng tháng là thứ Sáu tuần này."
+      }
+    ]
+  },
+  {
+    "id": "biz_0003",
+    "term": "Proposal",
+    "type": "noun",
+    "meaning_vi": "Bản đề xuất",
+    "tags": [
+      "document",
+      "planning"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We are reviewing the marketing proposal for the new product.",
+        "vi": "Chúng tôi đang xem xét bản đề xuất tiếp thị cho sản phẩm mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0004",
+    "term": "Workflow",
+    "type": "noun",
+    "meaning_vi": "Luồng công việc/Quy trình",
+    "tags": [
+      "operation",
+      "efficiency"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to improve our workflow to increase productivity.",
+        "vi": "Chúng ta cần cải thiện quy trình làm việc để tăng năng suất."
+      }
+    ]
+  },
+  {
+    "id": "biz_0005",
+    "term": "Annual Leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ phép năm",
+    "tags": [
+      "hr",
+      "benefits"
+    ],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "I still have five days of annual leave left this year.",
+        "vi": "Tôi vẫn còn năm ngày nghỉ phép năm trong năm nay."
+      }
+    ]
+  },
+  {
+    "id": "biz_0006",
+    "term": "Feedback",
+    "type": "noun",
+    "meaning_vi": "Ý kiến phản hồi",
+    "tags": [
+      "communication",
+      "improvement"
+    ],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Constructive feedback helps employees grow.",
+        "vi": "Phản hồi mang tính xây dựng giúp nhân viên phát triển."
+      }
+    ]
+  },
+  {
+    "id": "biz_0007",
+    "term": "Outsource",
+    "type": "verb",
+    "meaning_vi": "Thuê ngoài",
+    "tags": [
+      "strategy",
+      "business"
+    ],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company decided to outsource its IT services.",
+        "vi": "Công ty đã quyết định thuê ngoài các dịch vụ CNTT."
+      }
+    ]
+  },
+  {
+    "id": "biz_0008",
+    "term": "Probation",
+    "type": "noun",
+    "meaning_vi": "Thời gian thử việc",
+    "tags": [
+      "recruitment",
+      "hr"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "New employees usually have a two-month probation period.",
+        "vi": "Nhân viên mới thường có thời gian thử việc là hai tháng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0009",
+    "term": "Brainstorm",
+    "type": "verb",
+    "meaning_vi": "Động não/Sáng tạo ý tưởng",
+    "tags": [
+      "creative",
+      "meeting"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Let's brainstorm some ideas for the upcoming campaign.",
+        "vi": "Hãy cùng động não một vài ý tưởng cho chiến dịch sắp tới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0010",
+    "term": "Resign",
+    "type": "verb",
+    "meaning_vi": "Từ chức/Thôi việc",
+    "tags": [
+      "career",
+      "hr"
+    ],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "He decided to resign to start his own business.",
+        "vi": "Anh ấy quyết định từ chức để bắt đầu kinh doanh riêng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0011",
+    "term": "Agenda",
+    "type": "noun",
+    "meaning_vi": "Chương trình nghị sự / Nội dung họp",
+    "tags": ["meeting", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Please send the agenda to all participants before the meeting.",
+        "vi": "Vui lòng gửi nội dung họp cho tất cả người tham gia trước cuộc họp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0012",
+    "term": "Appraisal",
+    "type": "noun",
+    "meaning_vi": "Sự đánh giá / Định giá",
+    "tags": ["hr", "management"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Employees have an annual performance appraisal in December.",
+        "vi": "Nhân viên có buổi đánh giá hiệu quả công việc hàng năm vào tháng 12."
+      }
+    ]
+  },
+  {
+    "id": "biz_0013",
+    "term": "Asset",
+    "type": "noun",
+    "meaning_vi": "Tài sản",
+    "tags": ["finance", "business"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Her ability to speak three languages is a great asset to the company.",
+        "vi": "Khả năng nói ba thứ tiếng của cô ấy là một tài sản lớn đối với công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0014",
+    "term": "Board of Directors",
+    "type": "noun",
+    "meaning_vi": "Hội đồng quản trị",
+    "tags": ["management", "leadership"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The Board of Directors approved the new investment plan.",
+        "vi": "Hội đồng quản trị đã phê duyệt kế hoạch đầu tư mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0015",
+    "term": "Bonus",
+    "type": "noun",
+    "meaning_vi": "Tiền thưởng",
+    "tags": ["hr", "finance"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The company offers a performance-based bonus every quarter.",
+        "vi": "Công ty cung cấp tiền thưởng dựa trên hiệu suất mỗi quý."
+      }
+    ]
+  },
+  {
+    "id": "biz_0016",
+    "term": "Brief",
+    "type": "verb/noun",
+    "meaning_vi": "Tóm tắt công việc / Bản tóm tắt",
+    "tags": ["communication", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The manager will brief the team on the new project tonight.",
+        "vi": "Quản lý sẽ tóm tắt cho nhóm về dự án mới vào tối nay."
+      }
+    ]
+  },
+  {
+    "id": "biz_0017",
+    "term": "Budget",
+    "type": "noun",
+    "meaning_vi": "Ngân sách",
+    "tags": ["finance", "planning"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "We need to stay within the marketing budget.",
+        "vi": "Chúng ta cần nằm trong phạm vi ngân sách tiếp thị."
+      }
+    ]
+  },
+  {
+    "id": "biz_0018",
+    "term": "Candidate",
+    "type": "noun",
+    "meaning_vi": "Ứng viên",
+    "tags": ["recruitment", "hr"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "We interviewed five candidates for the position yesterday.",
+        "vi": "Chúng tôi đã phỏng vấn năm ứng viên cho vị trí này vào hôm qua."
+      }
+    ]
+  },
+  {
+    "id": "biz_0019",
+    "term": "Commute",
+    "type": "verb",
+    "meaning_vi": "Đi làm (quãng đường từ nhà đến nơi làm)",
+    "tags": ["lifestyle", "work"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "It takes me 30 minutes to commute to the office by bus.",
+        "vi": "Tôi mất 30 phút để đi làm đến văn phòng bằng xe buýt."
+      }
+    ]
+  },
+  {
+    "id": "biz_0020",
+    "term": "Compensation",
+    "type": "noun",
+    "meaning_vi": "Sự bồi thường / Tổng thù lao",
+    "tags": ["hr", "finance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The compensation package includes health insurance and a car allowance.",
+        "vi": "Gói thù lao bao gồm bảo hiểm y tế và phụ cấp xe hơi."
+      }
+    ]
+  },
+  {
+    "id": "biz_0021",
+    "term": "Competitor",
+    "type": "noun",
+    "meaning_vi": "Đối thủ cạnh tranh",
+    "tags": ["marketing", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to analyze our competitors' pricing strategies.",
+        "vi": "Chúng ta cần phân tích chiến lược giá của các đối thủ cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "biz_0022",
+    "term": "Contract",
+    "type": "noun",
+    "meaning_vi": "Hợp đồng",
+    "tags": ["legal", "document"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Please read the contract carefully before signing.",
+        "vi": "Vui lòng đọc kỹ hợp đồng trước khi ký."
+      }
+    ]
+  },
+  {
+    "id": "biz_0023",
+    "term": "Core values",
+    "type": "noun",
+    "meaning_vi": "Giá trị cốt lõi",
+    "tags": ["culture", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Integrity is one of our company's core values.",
+        "vi": "Chính trực là một trong những giá trị cốt lõi của công ty chúng tôi."
+      }
+    ]
+  },
+  {
+    "id": "biz_0024",
+    "term": "Delegate",
+    "type": "verb",
+    "meaning_vi": "Ủy thác / Giao phó công việc",
+    "tags": ["management", "leadership"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "A good manager knows how to delegate tasks effectively.",
+        "vi": "Một quản lý giỏi biết cách giao phó công việc một cách hiệu quả."
+      }
+    ]
+  },
+  {
+    "id": "biz_0025",
+    "term": "Department",
+    "type": "noun",
+    "meaning_vi": "Phòng ban",
+    "tags": ["organization", "structure"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Which department do you work in?",
+        "vi": "Bạn làm việc ở phòng ban nào?"
+      }
+    ]
+  },
+  {
+    "id": "biz_0026",
+    "term": "Dismiss",
+    "type": "verb",
+    "meaning_vi": "Sa thải / Giải tán",
+    "tags": ["hr", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The employee was dismissed for violating safety rules.",
+        "vi": "Nhân viên đã bị sa thải vì vi phạm các quy tắc an toàn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0027",
+    "term": "Efficiency",
+    "type": "noun",
+    "meaning_vi": "Hiệu suất / Sự hiệu quả",
+    "tags": ["operation", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Automation can improve the efficiency of the factory.",
+        "vi": "Tự động hóa có thể cải thiện hiệu suất của nhà máy."
+      }
+    ]
+  },
+  {
+    "id": "biz_0028",
+    "term": "Enquire",
+    "type": "verb",
+    "meaning_vi": "Hỏi / Yêu cầu thông tin",
+    "tags": ["communication", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "I am writing to enquire about your catering services.",
+        "vi": "Tôi viết thư này để hỏi về dịch vụ cung cấp suất ăn của bạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0029",
+    "term": "Entrepreneur",
+    "type": "noun",
+    "meaning_vi": "Doanh nhân / Người khởi nghiệp",
+    "tags": ["business", "leadership"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "She is a successful entrepreneur in the tech industry.",
+        "vi": "Cô ấy là một doanh nhân thành đạt trong ngành công nghệ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0030",
+    "term": "Equipment",
+    "type": "noun",
+    "meaning_vi": "Thiết bị / Trang thiết bị",
+    "tags": ["office", "facility"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The office is equipped with modern IT equipment.",
+        "vi": "Văn phòng được trang bị các thiết bị CNTT hiện đại."
+      }
+    ]
+  },
+  {
+    "id": "biz_0031",
+    "term": "Estimate",
+    "type": "verb/noun",
+    "meaning_vi": "Ước tính / Bản báo giá sơ bộ",
+    "tags": ["finance", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Can you give me an estimate of the total cost?",
+        "vi": "Bạn có thể cho tôi một bản ước tính tổng chi phí không?"
+      }
+    ]
+  },
+  {
+    "id": "biz_0032",
+    "term": "Executive",
+    "type": "noun",
+    "meaning_vi": "Cấp điều hành / Giám đốc",
+    "tags": ["management", "leadership"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Senior executives are meeting to discuss the merger.",
+        "vi": "Các giám đốc điều hành cấp cao đang họp để thảo luận về việc sáp nhập."
+      }
+    ]
+  },
+  {
+    "id": "biz_0033",
+    "term": "Expand",
+    "type": "verb",
+    "meaning_vi": "Mở rộng",
+    "tags": ["business", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company plans to expand into the Asian market.",
+        "vi": "Công ty có kế hoạch mở rộng sang thị trường châu Á."
+      }
+    ]
+  },
+  {
+    "id": "biz_0034",
+    "term": "Expense",
+    "type": "noun",
+    "meaning_vi": "Chi phí / Khoản chi tiêu",
+    "tags": ["finance", "accounting"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "You can claim your travel expenses from the company.",
+        "vi": "Bạn có thể yêu cầu công ty thanh toán các chi phí đi lại của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0035",
+    "term": "Facilitate",
+    "type": "verb",
+    "meaning_vi": "Tạo điều kiện / Làm cho thuận tiện",
+    "tags": ["management", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The new software will facilitate faster communication.",
+        "vi": "Phần mềm mới sẽ tạo điều kiện cho việc giao tiếp nhanh hơn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0036",
+    "term": "Forecast",
+    "type": "verb/noun",
+    "meaning_vi": "Dự báo",
+    "tags": ["finance", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The sales forecast for the next quarter looks promising.",
+        "vi": "Dự báo doanh số cho quý tới trông rất hứa hẹn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0037",
+    "term": "Goal",
+    "type": "noun",
+    "meaning_vi": "Mục tiêu",
+    "tags": ["planning", "management"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Our primary goal is to improve customer satisfaction.",
+        "vi": "Mục tiêu chính của chúng tôi là cải thiện sự hài lòng của khách hàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0038",
+    "term": "Headquarters",
+    "type": "noun",
+    "meaning_vi": "Trụ sở chính",
+    "tags": ["organization", "facility"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company's headquarters is located in New York.",
+        "vi": "Trụ sở chính của công ty nằm ở New York."
+      }
+    ]
+  },
+  {
+    "id": "biz_0039",
+    "term": "Implement",
+    "type": "verb",
+    "meaning_vi": "Triển khai / Thực hiện",
+    "tags": ["operation", "management"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We will implement the new policy starting next month.",
+        "vi": "Chúng tôi sẽ triển khai chính sách mới bắt đầu từ tháng tới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0040",
+    "term": "Incentive",
+    "type": "noun",
+    "meaning_vi": "Sự khuyến khích / Ưu đãi",
+    "tags": ["hr", "motivation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The government offers tax incentives for green businesses.",
+        "vi": "Chính phủ cung cấp các ưu đãi thuế cho các doanh nghiệp xanh."
+      }
+    ]
+  },
+  {
+    "id": "biz_0041",
+    "term": "Income",
+    "type": "noun",
+    "meaning_vi": "Thu nhập",
+    "tags": ["finance", "accounting"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The company’s annual income has increased by 10%.",
+        "vi": "Thu nhập hàng năm của công ty đã tăng 10%."
+      }
+    ]
+  },
+  {
+    "id": "biz_0042",
+    "term": "Inventory",
+    "type": "noun",
+    "meaning_vi": "Hàng tồn kho / Sự kiểm kê",
+    "tags": ["operation", "logistics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to do an inventory check this weekend.",
+        "vi": "Chúng ta cần thực hiện kiểm kê hàng hóa vào cuối tuần này."
+      }
+    ]
+  },
+  {
+    "id": "biz_0043",
+    "term": "Invoice",
+    "type": "noun",
+    "meaning_vi": "Hóa đơn",
+    "tags": ["finance", "document"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Please send the invoice to the accounting department.",
+        "vi": "Vui lòng gửi hóa đơn cho phòng kế toán."
+      }
+    ]
+  },
+  {
+    "id": "biz_0044",
+    "term": "Join venture",
+    "type": "noun",
+    "meaning_vi": "Liên doanh",
+    "tags": ["business", "legal"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The two companies formed a joint venture to develop the project.",
+        "vi": "Hai công ty đã thành lập một liên doanh để phát triển dự án."
+      }
+    ]
+  },
+  {
+    "id": "biz_0045",
+    "term": "Launch",
+    "type": "verb/noun",
+    "meaning_vi": "Ra mắt / Khai trương",
+    "tags": ["marketing", "product"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The product launch was a huge success.",
+        "vi": "Buổi ra mắt sản phẩm là một thành công lớn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0046",
+    "term": "Leadership",
+    "type": "noun",
+    "meaning_vi": "Khả năng lãnh đạo",
+    "tags": ["management", "soft-skills"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "She showed strong leadership during the crisis.",
+        "vi": "Cô ấy đã thể hiện khả năng lãnh đạo mạnh mẽ trong cuộc khủng hoảng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0047",
+    "term": "Logistics",
+    "type": "noun",
+    "meaning_vi": "Hậu cần / Tiếp vận",
+    "tags": ["operation", "supply-chain"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The logistics manager is responsible for the distribution.",
+        "vi": "Quản lý hậu cần chịu trách nhiệm cho việc phân phối."
+      }
+    ]
+  },
+  {
+    "id": "biz_0048",
+    "term": "Manual",
+    "type": "noun",
+    "meaning_vi": "Sách hướng dẫn",
+    "tags": ["document", "operation"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Please read the employee manual for company policies.",
+        "vi": "Vui lòng đọc sổ tay nhân viên để biết các chính sách của công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0049",
+    "term": "Market share",
+    "type": "noun",
+    "meaning_vi": "Thị phần",
+    "tags": ["marketing", "finance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Our company has a 20% market share in this region.",
+        "vi": "Công ty chúng tôi chiếm 20% thị phần tại khu vực này."
+      }
+    ]
+  },
+  {
+    "id": "biz_0050",
+    "term": "Mentor",
+    "type": "noun/verb",
+    "meaning_vi": "Người hướng dẫn / Hướng dẫn",
+    "tags": ["hr", "development"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Senior employees will mentor the new interns.",
+        "vi": "Các nhân viên lâu năm sẽ hướng dẫn cho các thực tập sinh mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0051",
+    "term": "Merger",
+    "type": "noun",
+    "meaning_vi": "Sự sáp nhập",
+    "tags": ["business", "legal"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The merger between the two banks was completed yesterday.",
+        "vi": "Việc sáp nhập giữa hai ngân hàng đã hoàn tất vào hôm qua."
+      }
+    ]
+  },
+  {
+    "id": "biz_0052",
+    "term": "Negotiate",
+    "type": "verb",
+    "meaning_vi": "Đàm phán / Thương lượng",
+    "tags": ["communication", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to negotiate a better deal with the supplier.",
+        "vi": "Chúng ta cần đàm phán một thỏa thuận tốt hơn với nhà cung cấp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0053",
+    "term": "Networking",
+    "type": "noun",
+    "meaning_vi": "Kết nối mạng lưới (quan hệ)",
+    "tags": ["career", "communication"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Business networking is essential for career growth.",
+        "vi": "Kết nối quan hệ kinh doanh là điều thiết yếu để phát triển sự nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0054",
+    "term": "Notify",
+    "type": "verb",
+    "meaning_vi": "Thông báo",
+    "tags": ["communication"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Please notify me if there are any changes to the schedule.",
+        "vi": "Vui lòng thông báo cho tôi nếu có bất kỳ thay đổi nào đối với lịch trình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0055",
+    "term": "Objective",
+    "type": "noun",
+    "meaning_vi": "Mục tiêu / Mục đích",
+    "tags": ["planning", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The main objective of this meeting is to solve the budget issue.",
+        "vi": "Mục tiêu chính của cuộc họp này là giải quyết vấn đề ngân sách."
+      }
+    ]
+  },
+  {
+    "id": "biz_0056",
+    "term": "Occupy",
+    "type": "verb",
+    "meaning_vi": "Chiếm giữ / Đang sử dụng (phòng)",
+    "tags": ["office", "facility"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The conference room is currently occupied.",
+        "vi": "Phòng hội nghị hiện đang có người sử dụng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0057",
+    "term": "Opportunity",
+    "type": "noun",
+    "meaning_vi": "Cơ hội",
+    "tags": ["career", "business"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Working abroad is a great opportunity to gain experience.",
+        "vi": "Làm việc ở nước ngoài là một cơ hội tuyệt vời để tích lũy kinh nghiệm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0058",
+    "term": "Out of order",
+    "type": "phrase",
+    "meaning_vi": "Bị hỏng",
+    "tags": ["office", "equipment"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The elevator is out of order, so we have to use the stairs.",
+        "vi": "Thang máy bị hỏng, vì vậy chúng ta phải đi cầu thang bộ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0059",
+    "term": "Outcome",
+    "type": "noun",
+    "meaning_vi": "Kết quả / Đầu ra",
+    "tags": ["management", "analysis"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We are very happy with the outcome of the negotiations.",
+        "vi": "Chúng tôi rất hài lòng với kết quả của cuộc đàm phán."
+      }
+    ]
+  },
+  {
+    "id": "biz_0060",
+    "term": "Overhead",
+    "type": "noun",
+    "meaning_vi": "Chi phí cố định / Chi phí quản lý doanh nghiệp",
+    "tags": ["finance", "accounting"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Rent and utilities are part of the company's overhead.",
+        "vi": "Tiền thuê nhà và điện nước là một phần chi phí cố định của công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0061",
+    "term": "Overtime",
+    "type": "noun/adverb",
+    "meaning_vi": "Làm thêm giờ (OT)",
+    "tags": ["hr", "work-life"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The staff had to work overtime to prepare for the product launch.",
+        "vi": "Nhân viên đã phải làm thêm giờ để chuẩn bị cho buổi ra mắt sản phẩm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0062",
+    "term": "Partnership",
+    "type": "noun",
+    "meaning_vi": "Quan hệ đối tác",
+    "tags": ["business", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We are looking to form a strategic partnership with a tech firm.",
+        "vi": "Chúng tôi đang tìm cách thiết lập quan hệ đối tác chiến lược với một công ty công nghệ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0063",
+    "term": "Payroll",
+    "type": "noun",
+    "meaning_vi": "Bảng lương / Tổng quỹ lương",
+    "tags": ["hr", "finance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The payroll department processes salaries on the 25th of every month.",
+        "vi": "Bộ phận tiền lương xử lý lương vào ngày 25 hàng tháng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0064",
+    "term": "Pending",
+    "type": "adjective",
+    "meaning_vi": "Đang chờ xử lý / Chưa quyết định",
+    "tags": ["operation", "status"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The application is still pending approval from the manager.",
+        "vi": "Đơn ứng tuyển vẫn đang chờ sự phê duyệt từ quản lý."
+      }
+    ]
+  },
+  {
+    "id": "biz_0065",
+    "term": "Personnel",
+    "type": "noun",
+    "meaning_vi": "Nhân sự / Toàn bộ nhân viên",
+    "tags": ["hr", "organization"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "All personnel are required to attend the safety training.",
+        "vi": "Tất cả nhân sự được yêu cầu tham gia khóa đào tạo an toàn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0066",
+    "term": "Plenary",
+    "type": "adjective",
+    "meaning_vi": "Đầy đủ thành phần / Phiên họp toàn thể",
+    "tags": ["meeting", "conference"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The opening plenary session will start at 9:00 AM.",
+        "vi": "Phiên họp toàn thể khai mạc sẽ bắt đầu lúc 9 giờ sáng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0067",
+    "term": "Policy",
+    "type": "noun",
+    "meaning_vi": "Chính sách",
+    "tags": ["hr", "legal"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Company policy prohibits smoking inside the office.",
+        "vi": "Chính sách công ty cấm hút thuốc bên trong văn phòng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0068",
+    "term": "Portfolio",
+    "type": "noun",
+    "meaning_vi": "Hồ sơ năng lực / Danh mục đầu tư",
+    "tags": ["finance", "marketing"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "He showed his design portfolio during the interview.",
+        "vi": "Anh ấy đã cho xem hồ sơ năng lực thiết kế của mình trong buổi phỏng vấn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0069",
+    "term": "Prioritize",
+    "type": "verb",
+    "meaning_vi": "Ưu tiên",
+    "tags": ["management", "soft-skills"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to prioritize tasks that have the nearest deadlines.",
+        "vi": "Chúng ta cần ưu tiên những công việc có hạn chót gần nhất."
+      }
+    ]
+  },
+  {
+    "id": "biz_0070",
+    "term": "Procedure",
+    "type": "noun",
+    "meaning_vi": "Thủ tục / Quy trình",
+    "tags": ["operation", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "What is the standard procedure for handling customer complaints?",
+        "vi": "Quy trình tiêu chuẩn để xử lý khiếu nại của khách hàng là gì?"
+      }
+    ]
+  },
+  {
+    "id": "biz_0071",
+    "term": "Productivity",
+    "type": "noun",
+    "meaning_vi": "Năng suất",
+    "tags": ["operation", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Good lighting can improve employee productivity.",
+        "vi": "Ánh sáng tốt có thể cải thiện năng suất của nhân viên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0072",
+    "term": "Profit Margin",
+    "type": "noun",
+    "meaning_vi": "Biên lợi nhuận",
+    "tags": ["finance", "business"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company is trying to increase its profit margin this year.",
+        "vi": "Công ty đang cố gắng tăng biên lợi nhuận trong năm nay."
+      }
+    ]
+  },
+  {
+    "id": "biz_0073",
+    "term": "Promotion",
+    "type": "noun",
+    "meaning_vi": "Sự thăng chức / Sự quảng bá",
+    "tags": ["hr", "marketing"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Congratulations on your promotion to Senior Manager!",
+        "vi": "Chúc mừng bạn đã được thăng chức lên Quản lý cấp cao!"
+      }
+    ]
+  },
+  {
+    "id": "biz_0074",
+    "term": "Punctual",
+    "type": "adjective",
+    "meaning_vi": "Đúng giờ",
+    "tags": ["soft-skills", "hr"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "In our company, being punctual for meetings is very important.",
+        "vi": "Trong công ty chúng tôi, việc đi họp đúng giờ là rất quan trọng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0075",
+    "term": "Quarterly",
+    "type": "adjective/adverb",
+    "meaning_vi": "Hàng quý",
+    "tags": ["finance", "time"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We review our financial performance on a quarterly basis.",
+        "vi": "Chúng tôi xem xét kết quả tài chính theo định kỳ hàng quý."
+      }
+    ]
+  },
+  {
+    "id": "biz_0076",
+    "term": "Quota",
+    "type": "noun",
+    "meaning_vi": "Hạn ngạch / Chỉ tiêu",
+    "tags": ["sales", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The sales team exceeded its monthly quota.",
+        "vi": "Đội ngũ bán hàng đã vượt chỉ tiêu hàng tháng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0077",
+    "term": "Reconcile",
+    "type": "verb",
+    "meaning_vi": "Đối chiếu / Hòa giải",
+    "tags": ["accounting", "finance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We need to reconcile the bank statement with our records.",
+        "vi": "Chúng ta cần đối chiếu sao kê ngân hàng với hồ sơ của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0078",
+    "term": "Redundant",
+    "type": "adjective",
+    "meaning_vi": "Dư thừa / Bị sa thải (do thừa nhân sự)",
+    "tags": ["hr", "economy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Many workers were made redundant after the factory closed.",
+        "vi": "Nhiều công nhân đã bị sa thải sau khi nhà máy đóng cửa."
+      }
+    ]
+  },
+  {
+    "id": "biz_0079",
+    "term": "Referral",
+    "type": "noun",
+    "meaning_vi": "Sự giới thiệu / Người được giới thiệu",
+    "tags": ["recruitment", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Most of our new clients come from employee referrals.",
+        "vi": "Hầu hết các khách hàng mới của chúng tôi đến từ sự giới thiệu của nhân viên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0080",
+    "term": "Refund",
+    "type": "noun/verb",
+    "meaning_vi": "Hoàn tiền",
+    "tags": ["finance", "customer-service"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The customer requested a full refund for the faulty product.",
+        "vi": "Khách hàng yêu cầu hoàn tiền đầy đủ cho sản phẩm bị lỗi."
+      }
+    ]
+  },
+  {
+    "id": "biz_0081",
+    "term": "Reliable",
+    "type": "adjective",
+    "meaning_vi": "Đáng tin cậy",
+    "tags": ["soft-skills", "quality"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "We need a reliable supplier who can deliver on time.",
+        "vi": "Chúng tôi cần một nhà cung cấp đáng tin cậy, người có thể giao hàng đúng hạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0082",
+    "term": "Remote work",
+    "type": "noun",
+    "meaning_vi": "Làm việc từ xa",
+    "tags": ["work-style", "hr"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The company offers a hybrid model with two days of remote work.",
+        "vi": "Công ty cung cấp mô hình làm việc kết hợp với hai ngày làm việc từ xa."
+      }
+    ]
+  },
+  {
+    "id": "biz_0083",
+    "term": "Renegotiate",
+    "type": "verb",
+    "meaning_vi": "Đàm phán lại",
+    "tags": ["sales", "legal"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We are trying to renegotiate the terms of the contract.",
+        "vi": "Chúng tôi đang cố gắng đàm phán lại các điều khoản của hợp đồng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0084",
+    "term": "Reputation",
+    "type": "noun",
+    "meaning_vi": "Uy tín / Danh tiếng",
+    "tags": ["marketing", "branding"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Bad customer service can ruin a company's reputation.",
+        "vi": "Dịch vụ khách hàng tồi tệ có thể hủy hoại uy tín của một công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0085",
+    "term": "Resource",
+    "type": "noun",
+    "meaning_vi": "Nguồn lực",
+    "tags": ["management", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need more human resources to finish this project.",
+        "vi": "Chúng ta cần thêm nguồn nhân lực để hoàn thành dự án này."
+      }
+    ]
+  },
+  {
+    "id": "biz_0086",
+    "term": "Retailer",
+    "type": "noun",
+    "meaning_vi": "Nhà bán lẻ",
+    "tags": ["business", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The product is available at most major retailers.",
+        "vi": "Sản phẩm có sẵn tại hầu hết các nhà bán lẻ lớn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0087",
+    "term": "Retention",
+    "type": "noun",
+    "meaning_vi": "Sự giữ chân (khách hàng/nhân viên)",
+    "tags": ["hr", "marketing"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The new bonus scheme improved employee retention.",
+        "vi": "Cơ chế tiền thưởng mới đã cải thiện việc giữ chân nhân viên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0088",
+    "term": "Revenue",
+    "type": "noun",
+    "meaning_vi": "Doanh thu",
+    "tags": ["finance", "business"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Total revenue increased by 15% compared to last year.",
+        "vi": "Tổng doanh thu tăng 15% so với năm ngoái."
+      }
+    ]
+  },
+  {
+    "id": "biz_0089",
+    "term": "Risk management",
+    "type": "noun",
+    "meaning_vi": "Quản trị rủi ro",
+    "tags": ["management", "finance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Effective risk management is crucial for the company's survival.",
+        "vi": "Quản trị rủi ro hiệu quả là tối quan trọng đối với sự sinh tồn của công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0090",
+    "term": "Salary expectation",
+    "type": "noun",
+    "meaning_vi": "Mức lương mong đợi",
+    "tags": ["recruitment", "hr"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "What is your salary expectation for this role?",
+        "vi": "Mức lương mong đợi của bạn cho vị trí này là bao nhiêu?"
+      }
+    ]
+  },
+  {
+    "id": "biz_0091",
+    "term": "Extensibility",
+    "type": "noun",
+    "meaning_vi": "Khả năng mở rộng",
+    "tags": ["software", "architecture"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The framework's extensibility allows easy addition of new features.",
+        "vi": "Khả năng mở rộng của khung làm việc cho phép thêm tính năng mới dễ dàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0092",
+    "term": "Scope of work",
+    "type": "noun",
+    "meaning_vi": "Phạm vi công việc",
+    "tags": ["project-management", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The scope of work is clearly defined in the contract.",
+        "vi": "Phạm vi công việc được xác định rõ ràng trong hợp đồng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0093",
+    "term": "Screening",
+    "type": "noun",
+    "meaning_vi": "Sàng lọc (hồ sơ/ứng viên)",
+    "tags": ["recruitment", "hr"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The HR department is currently screening resumes.",
+        "vi": "Phòng nhân sự hiện đang sàng lọc các hồ sơ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0094",
+    "term": "Sector",
+    "type": "noun",
+    "meaning_vi": "Lĩnh vực / Thành phần kinh tế",
+    "tags": ["economy", "business"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The private sector plays a vital role in the economy.",
+        "vi": "Khu vực tư nhân đóng vai trò quan trọng trong nền kinh tế."
+      }
+    ]
+  },
+  {
+    "id": "biz_0095",
+    "term": "Seniority",
+    "type": "noun",
+    "meaning_vi": "Thâm niên",
+    "tags": ["hr", "management"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Promotions are based on performance rather than seniority.",
+        "vi": "Việc thăng chức dựa trên hiệu suất thay vì thâm niên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0096",
+    "term": "Shareholder",
+    "type": "noun",
+    "meaning_vi": "Cổ đông",
+    "tags": ["finance", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The annual meeting of shareholders will be held next month.",
+        "vi": "Cuộc họp cổ đông thường niên sẽ được tổ chức vào tháng tới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0097",
+    "term": "Shortlist",
+    "type": "noun/verb",
+    "meaning_vi": "Danh sách rút gọn",
+    "tags": ["recruitment", "hr"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "She has been placed on the shortlist for the job.",
+        "vi": "Cô ấy đã được đưa vào danh sách rút gọn cho công việc."
+      }
+    ]
+  },
+  {
+    "id": "biz_0098",
+    "term": "Sick leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ phép ốm",
+    "tags": ["hr", "benefits"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "He is on sick leave because of a bad cold.",
+        "vi": "Anh ấy đang nghỉ ốm vì bị cảm nặng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0099",
+    "term": "Skilled labor",
+    "type": "noun",
+    "meaning_vi": "Lao động có tay nghề",
+    "tags": ["hr", "economy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The country is facing a shortage of skilled labor.",
+        "vi": "Đất nước đang đối mặt với tình trạng thiếu hụt lao động có tay nghề."
+      }
+    ]
+  },
+  {
+    "id": "biz_0100",
+    "term": "Social insurance",
+    "type": "noun",
+    "meaning_vi": "Bảo hiểm xã hội",
+    "tags": ["hr", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Social insurance contributions are deducted from your salary.",
+        "vi": "Các khoản đóng bảo hiểm xã hội được khấu trừ từ lương của bạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0101",
+    "term": "Sole proprietorship",
+    "type": "noun",
+    "meaning_vi": "Doanh nghiệp tư nhân (một chủ)",
+    "tags": ["business", "legal"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Starting a sole proprietorship is simpler than a corporation.",
+        "vi": "Bắt đầu một doanh nghiệp tư nhân đơn giản hơn một tập đoàn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0102",
+    "term": "Specialization",
+    "type": "noun",
+    "meaning_vi": "Sự chuyên môn hóa",
+    "tags": ["career", "education"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Digital marketing is her area of specialization.",
+        "vi": "Tiếp thị kỹ thuật số là lĩnh vực chuyên môn của cô ấy."
+      }
+    ]
+  },
+  {
+    "id": "biz_0103",
+    "term": "Sponsor",
+    "type": "noun/verb",
+    "meaning_vi": "Nhà tài trợ / Tài trợ",
+    "tags": ["marketing", "finance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company decided to sponsor the charity event.",
+        "vi": "Công ty đã quyết định tài trợ cho sự kiện từ thiện."
+      }
+    ]
+  },
+  {
+    "id": "biz_0104",
+    "term": "Stakeholder",
+    "type": "noun",
+    "meaning_vi": "Bên liên quan",
+    "tags": ["management", "business"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We need to communicate the plan to all key stakeholders.",
+        "vi": "Chúng ta cần truyền đạt kế hoạch tới tất cả các bên liên quan chính."
+      }
+    ]
+  },
+  {
+    "id": "biz_0105",
+    "term": "Standardize",
+    "type": "verb",
+    "meaning_vi": "Tiêu chuẩn hóa",
+    "tags": ["operation", "quality"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company aims to standardize its reporting process.",
+        "vi": "Công ty đặt mục tiêu tiêu chuẩn hóa quy trình báo cáo của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0106",
+    "term": "Start-up",
+    "type": "noun",
+    "meaning_vi": "Công ty khởi nghiệp",
+    "tags": ["business", "innovation"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Working for a start-up can be very challenging but rewarding.",
+        "vi": "Làm việc cho một công ty khởi nghiệp có thể rất thách thức nhưng xứng đáng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0107",
+    "term": "Statutory",
+    "type": "adjective",
+    "meaning_vi": "Theo luật định",
+    "tags": ["legal", "hr"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Employers must provide statutory sick pay.",
+        "vi": "Người sử dụng lao động phải cung cấp khoản lương ốm đau theo luật định."
+      }
+    ]
+  },
+  {
+    "id": "biz_0108",
+    "term": "Strategy",
+    "type": "noun",
+    "meaning_vi": "Chiến lược",
+    "tags": ["management", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Our marketing strategy focuses on social media engagement.",
+        "vi": "Chiến lược tiếp thị của chúng tôi tập trung vào sự tương tác trên mạng xã hội."
+      }
+    ]
+  },
+  {
+    "id": "biz_0109",
+    "term": "Subordinate",
+    "type": "noun",
+    "meaning_vi": "Cấp dưới",
+    "tags": ["hr", "management"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "A manager should listen to the opinions of their subordinates.",
+        "vi": "Một người quản lý nên lắng nghe ý kiến của cấp dưới mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0110",
+    "term": "Supplier",
+    "type": "noun",
+    "meaning_vi": "Nhà cung cấp",
+    "tags": ["operation", "supply-chain"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We are currently looking for a new office supplies supplier.",
+        "vi": "Chúng tôi hiện đang tìm kiếm một nhà cung cấp văn phòng phẩm mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0111",
+    "term": "API",
+    "type": "noun",
+    "meaning_vi": "Giao diện lập trình ứng dụng",
+    "tags": ["software", "development"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The application uses REST API to communicate with the server.",
+        "vi": "Ứng dụng sử dụng REST API để giao tiếp với máy chủ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0112",
+    "term": "Database",
+    "type": "noun",
+    "meaning_vi": "Cơ sở dữ liệu",
+    "tags": ["software", "data"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The application stores user data in a relational database.",
+        "vi": "Ứng dụng lưu trữ dữ liệu người dùng trong cơ sở dữ liệu quan hệ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0113",
+    "term": "Framework",
+    "type": "noun",
+    "meaning_vi": "Khung làm việc",
+    "tags": ["software", "development"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "React is a popular JavaScript framework for building user interfaces.",
+        "vi": "React là một khung làm việc JavaScript phổ biến để xây dựng giao diện người dùng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0114",
+    "term": "IDE",
+    "type": "noun",
+    "meaning_vi": "Môi trường phát triển tích hợp",
+    "tags": ["software", "tool"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Visual Studio Code is a popular IDE for web development.",
+        "vi": "Visual Studio Code là một IDE phổ biến cho phát triển web."
+      }
+    ]
+  },
+  {
+    "id": "biz_0115",
+    "term": "Algorithm",
+    "type": "noun",
+    "meaning_vi": "Thuật toán",
+    "tags": ["software", "programming"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Sorting algorithms are essential in computer science.",
+        "vi": "Thuật toán sắp xếp là thiết yếu trong khoa học máy tính."
+      }
+    ]
+  },
+  {
+    "id": "biz_0116",
+    "term": "Bug",
+    "type": "noun",
+    "meaning_vi": "Lỗi",
+    "tags": ["software", "debugging"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The developer fixed a critical bug in the application.",
+        "vi": "Nhà phát triển sửa một lỗi quan trọng trong ứng dụng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0117",
+    "term": "Peer review",
+    "type": "noun",
+    "meaning_vi": "Xem xét đồng đẳng",
+    "tags": ["software", "quality"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Peer review ensures code quality through team collaboration.",
+        "vi": "Xem xét đồng đẳng đảm bảo chất lượng mã thông qua hợp tác nhóm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0118",
+    "term": "Codebase",
+    "type": "noun",
+    "meaning_vi": "Cơ sở mã nguồn",
+    "tags": ["software", "development"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The codebase contains all the source code for the application.",
+        "vi": "Cơ sở mã nguồn chứa tất cả mã nguồn cho ứng dụng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0119",
+    "term": "Source control",
+    "type": "noun",
+    "meaning_vi": "Kiểm soát mã nguồn",
+    "tags": ["software", "tool"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Source control is essential for collaborative software development.",
+        "vi": "Kiểm soát mã nguồn là cần thiết cho việc phát triển phần mềm hợp tác."
+      }
+    ]
+  },
+  {
+    "id": "biz_0120",
+    "term": "Iteration",
+    "type": "noun",
+    "meaning_vi": "Vòng lặp phát triển",
+    "tags": ["software", "agile"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "In agile development, an iteration is a time-boxed period for delivering increments.",
+        "vi": "Trong phát triển agile, một vòng lặp là khoảng thời gian có giới hạn để giao hàng các phần tăng dần."
+      }
+    ]
+  },
+  {
+    "id": "biz_0121",
+    "term": "Feature",
+    "type": "noun",
+    "meaning_vi": "Tính năng",
+    "tags": ["software", "development"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The new feature allows users to upload images.",
+        "vi": "Tính năng mới cho phép người dùng tải lên hình ảnh."
+      }
+    ]
+  },
+  {
+    "id": "biz_0122",
+    "term": "User story",
+    "type": "noun",
+    "meaning_vi": "Câu chuyện người dùng",
+    "tags": ["software", "agile"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "As a user, I want to log in so that I can access my account.",
+        "vi": "Là một người dùng, tôi muốn đăng nhập để truy cập tài khoản của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0123",
+    "term": "Scalability",
+    "type": "noun",
+    "meaning_vi": "Khả năng mở rộng",
+    "tags": ["software", "architecture"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The system must have good scalability to handle increased traffic.",
+        "vi": "Hệ thống phải có khả năng mở rộng tốt để xử lý lưu lượng tăng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0124",
+    "term": "Deployment",
+    "type": "noun",
+    "meaning_vi": "Triển khai",
+    "tags": ["software", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The deployment of the new version went smoothly.",
+        "vi": "Việc triển khai phiên bản mới diễn ra suôn sẻ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0125",
+    "term": "Cloud computing",
+    "type": "noun",
+    "meaning_vi": "Điện toán đám mây",
+    "tags": ["software", "infrastructure"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Cloud computing allows scalable storage and processing.",
+        "vi": "Điện toán đám mây cho phép lưu trữ và xử lý có thể mở rộng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0126",
+    "term": "ROI",
+    "type": "noun",
+    "meaning_vi": "Tỷ suất lợi nhuận đầu tư",
+    "tags": ["finance", "investment"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The marketing campaign had an excellent ROI.",
+        "vi": "Chiến dịch tiếp thị có tỷ suất lợi nhuận đầu tư tuyệt vời."
+      }
+    ]
+  },
+  {
+    "id": "biz_0127",
+    "term": "Break-even",
+    "type": "noun/adjective",
+    "meaning_vi": "Điểm hòa vốn / Hòa vốn",
+    "tags": ["finance", "accounting"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We expect to reach break-even point next quarter.",
+        "vi": "Chúng tôi mong đạt điểm hòa vốn vào quý tới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0128",
+    "term": "Capital",
+    "type": "noun",
+    "meaning_vi": "Vốn",
+    "tags": ["finance", "business"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The company raised additional capital through investors.",
+        "vi": "Công ty huy động vốn bổ sung thông qua các nhà đầu tư."
+      }
+    ]
+  },
+  {
+    "id": "biz_0129",
+    "term": "Credit",
+    "type": "noun",
+    "meaning_vi": "Tín dụng / Ghi có",
+    "tags": ["finance", "accounting"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The bank approved a credit line for the business.",
+        "vi": "Ngân hàng phê duyệt hạn mức tín dụng cho doanh nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0130",
+    "term": "Debit",
+    "type": "noun",
+    "meaning_vi": "Ghi nợ",
+    "tags": ["finance", "accounting"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The transaction was recorded as a debit to the account.",
+        "vi": "Giao dịch được ghi nhận là ghi nợ vào tài khoản."
+      }
+    ]
+  },
+  {
+    "id": "biz_0131",
+    "term": "Endowment",
+    "type": "noun",
+    "meaning_vi": "Quỹ tài trợ / Tài trợ",
+    "tags": ["finance", "non-profit"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The university has a large endowment fund.",
+        "vi": "Trường đại học có quỹ tài trợ lớn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0132",
+    "term": "Franchise",
+    "type": "noun/verb",
+    "meaning_vi": "Nhượng quyền / Cấp phép",
+    "tags": ["business", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "They decided to franchise their successful restaurant chain.",
+        "vi": "Họ quyết định nhượng quyền chuỗi nhà hàng thành công của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0133",
+    "term": "Goodwill",
+    "type": "noun",
+    "meaning_vi": "Uy tín / Lợi thế cạnh tranh",
+    "tags": ["finance", "business"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The acquisition included significant goodwill value.",
+        "vi": "Việc mua lại bao gồm giá trị uy tín đáng kể."
+      }
+    ]
+  },
+  {
+    "id": "biz_0134",
+    "term": "Hedge",
+    "type": "noun/verb",
+    "meaning_vi": "Phủ nhận rủi ro / Bảo hiểm",
+    "tags": ["finance", "risk"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company used derivatives to hedge against currency fluctuations.",
+        "vi": "Công ty sử dụng các công cụ phái sinh để bảo hiểm chống biến động tiền tệ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0135",
+    "term": "IPO",
+    "type": "noun",
+    "meaning_vi": "Đợt phát hành cổ phiếu lần đầu ra công chúng",
+    "tags": ["finance", "investment"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The tech startup is preparing for its IPO next year.",
+        "vi": "Công ty khởi nghiệp công nghệ đang chuẩn bị cho IPO vào năm tới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0136",
+    "term": "Leverage",
+    "type": "noun/verb",
+    "meaning_vi": "Tận dụng / Đòn bẩy tài chính",
+    "tags": ["finance", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We need to leverage our existing customer base for growth.",
+        "vi": "Chúng ta cần tận dụng cơ sở khách hàng hiện tại để tăng trưởng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0137",
+    "term": "Liquidity",
+    "type": "noun",
+    "meaning_vi": "Tính thanh khoản",
+    "tags": ["finance", "accounting"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company's liquidity position improved significantly.",
+        "vi": "Vị thế thanh khoản của công ty cải thiện đáng kể."
+      }
+    ]
+  },
+  {
+    "id": "biz_0138",
+    "term": "Monopoly",
+    "type": "noun",
+    "meaning_vi": "Độc quyền",
+    "tags": ["business", "economics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company holds a monopoly in the local market.",
+        "vi": "Công ty nắm giữ độc quyền trên thị trường địa phương."
+      }
+    ]
+  },
+  {
+    "id": "biz_0139",
+    "term": "Oligopoly",
+    "type": "noun",
+    "meaning_vi": "Oligopoly / Thị trường ít cạnh tranh",
+    "tags": ["business", "economics"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The telecommunications industry is an oligopoly.",
+        "vi": "Ngành viễn thông là một oligopoly."
+      }
+    ]
+  },
+  {
+    "id": "biz_0140",
+    "term": "Patent",
+    "type": "noun/verb",
+    "meaning_vi": "Bằng sáng chế / Cấp bằng",
+    "tags": ["legal", "innovation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company filed a patent for its new technology.",
+        "vi": "Công ty nộp đơn xin bằng sáng chế cho công nghệ mới của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0141",
+    "term": "Trademark",
+    "type": "noun",
+    "meaning_vi": "Nhãn hiệu",
+    "tags": ["legal", "branding"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The logo is a registered trademark of the company.",
+        "vi": "Logo là nhãn hiệu đã đăng ký của công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0142",
+    "term": "Copyright",
+    "type": "noun",
+    "meaning_vi": "Bản quyền",
+    "tags": ["legal", "intellectual-property"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The software is protected by copyright law.",
+        "vi": "Phần mềm được bảo vệ bởi luật bản quyền."
+      }
+    ]
+  },
+  {
+    "id": "biz_0143",
+    "term": "Arbitration",
+    "type": "noun",
+    "meaning_vi": "Trọng tài",
+    "tags": ["legal", "dispute"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The dispute was resolved through arbitration.",
+        "vi": "Tranh chấp được giải quyết thông qua trọng tài."
+      }
+    ]
+  },
+  {
+    "id": "biz_0144",
+    "term": "Mediation",
+    "type": "noun",
+    "meaning_vi": "Hòa giải",
+    "tags": ["legal", "dispute"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Mediation helped both parties reach an agreement.",
+        "vi": "Hòa giải giúp cả hai bên đạt được thỏa thuận."
+      }
+    ]
+  },
+  {
+    "id": "biz_0145",
+    "term": "Litigation",
+    "type": "noun",
+    "meaning_vi": "Tố tụng / Khởi kiện",
+    "tags": ["legal", "dispute"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company is involved in complex litigation.",
+        "vi": "Công ty đang tham gia vào vụ kiện phức tạp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0146",
+    "term": "Tort",
+    "type": "noun",
+    "meaning_vi": "Vi phạm dân sự / Sai trái",
+    "tags": ["legal", "liability"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Negligence can lead to tort liability.",
+        "vi": "Sự bất cẩn có thể dẫn đến trách nhiệm vi phạm dân sự."
+      }
+    ]
+  },
+  {
+    "id": "biz_0147",
+    "term": "Breach of contract",
+    "type": "noun",
+    "meaning_vi": "Vi phạm hợp đồng",
+    "tags": ["legal", "contract"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The supplier was sued for breach of contract.",
+        "vi": "Nhà cung cấp bị kiện vì vi phạm hợp đồng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0148",
+    "term": "NDA",
+    "type": "noun",
+    "meaning_vi": "Thỏa thuận không tiết lộ",
+    "tags": ["legal", "confidentiality"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "All employees must sign an NDA before starting work.",
+        "vi": "Tất cả nhân viên phải ký NDA trước khi bắt đầu làm việc."
+      }
+    ]
+  },
+  {
+    "id": "biz_0149",
+    "term": "MOU",
+    "type": "noun",
+    "meaning_vi": "Thỏa thuận ghi nhớ",
+    "tags": ["legal", "business"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The two companies signed an MOU to explore collaboration.",
+        "vi": "Hai công ty ký MOU để khám phá hợp tác."
+      }
+    ]
+  },
+  {
+    "id": "biz_0150",
+    "term": "Power of attorney",
+    "type": "noun",
+    "meaning_vi": "Giấy ủy quyền",
+    "tags": ["legal", "document"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "She granted power of attorney to her lawyer.",
+        "vi": "Cô ấy cấp giấy ủy quyền cho luật sư của mình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0151",
+    "term": "Proxy",
+    "type": "noun",
+    "meaning_vi": "Ủy quyền / Đại diện",
+    "tags": ["legal", "corporate"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Shareholders can vote by proxy at the annual meeting.",
+        "vi": "Cổ đông có thể bỏ phiếu bằng ủy quyền tại cuộc họp thường niên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0152",
+    "term": "Warranty",
+    "type": "noun",
+    "meaning_vi": "Bảo hành / Bảo đảm",
+    "tags": ["legal", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The product comes with a one-year warranty.",
+        "vi": "Sản phẩm đi kèm bảo hành một năm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0153",
+    "term": "Indemnity",
+    "type": "noun",
+    "meaning_vi": "Bồi thường / Bảo hiểm",
+    "tags": ["legal", "insurance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The contract includes an indemnity clause.",
+        "vi": "Hợp đồng bao gồm điều khoản bồi thường."
+      }
+    ]
+  },
+  {
+    "id": "biz_0154",
+    "term": "Clause",
+    "type": "noun",
+    "meaning_vi": "Điều khoản",
+    "tags": ["legal", "contract"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The non-compete clause prevents former employees from joining competitors.",
+        "vi": "Điều khoản không cạnh tranh ngăn cản nhân viên cũ gia nhập đối thủ cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "biz_0155",
+    "term": "Addendum",
+    "type": "noun",
+    "meaning_vi": "Phụ lục",
+    "tags": ["legal", "document"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "An addendum was added to clarify the payment terms.",
+        "vi": "Một phụ lục được thêm vào để làm rõ các điều khoản thanh toán."
+      }
+    ]
+  },
+  {
+    "id": "biz_0156",
+    "term": "Annex",
+    "type": "noun",
+    "meaning_vi": "Phụ lục / Phần đính kèm",
+    "tags": ["legal", "document"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Please refer to the annex for detailed specifications.",
+        "vi": "Vui lòng tham khảo phụ lục để biết thông số kỹ thuật chi tiết."
+      }
+    ]
+  },
+  {
+    "id": "biz_0157",
+    "term": "Appendix",
+    "type": "noun",
+    "meaning_vi": "Phụ lục",
+    "tags": ["document", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The appendix contains supporting data for the report.",
+        "vi": "Phụ lục chứa dữ liệu hỗ trợ cho báo cáo."
+      }
+    ]
+  },
+  {
+    "id": "biz_0158",
+    "term": "Bylaw",
+    "type": "noun",
+    "meaning_vi": "Điều lệ / Nội quy",
+    "tags": ["legal", "corporate"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company's bylaws outline the governance structure.",
+        "vi": "Điều lệ của công ty phác thảo cấu trúc quản trị."
+      }
+    ]
+  },
+  {
+    "id": "biz_0159",
+    "term": "Charter",
+    "type": "noun",
+    "meaning_vi": "Hiến chương / Điều lệ",
+    "tags": ["legal", "corporate"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The organization's charter defines its mission and goals.",
+        "vi": "Hiến chương của tổ chức định nghĩa sứ mệnh và mục tiêu của nó."
+      }
+    ]
+  },
+  {
+    "id": "biz_0160",
+    "term": "Constitution",
+    "type": "noun",
+    "meaning_vi": "Hiến pháp / Điều lệ",
+    "tags": ["legal", "corporate"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The union's constitution protects workers' rights.",
+        "vi": "Hiến pháp của công đoàn bảo vệ quyền lợi của người lao động."
+      }
+    ]
+  },
+  {
+    "id": "biz_0161",
+    "term": "Statute",
+    "type": "noun",
+    "meaning_vi": "Luật định / Điều luật",
+    "tags": ["legal", "regulation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The new statute affects all businesses in the industry.",
+        "vi": "Luật định mới ảnh hưởng đến tất cả doanh nghiệp trong ngành."
+      }
+    ]
+  },
+  {
+    "id": "biz_0162",
+    "term": "Regulation",
+    "type": "noun",
+    "meaning_vi": "Quy định / Quy chế",
+    "tags": ["legal", "compliance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Companies must comply with environmental regulations.",
+        "vi": "Các công ty phải tuân thủ quy định về môi trường."
+      }
+    ]
+  },
+  {
+    "id": "biz_0163",
+    "term": "Guideline",
+    "type": "noun",
+    "meaning_vi": "Hướng dẫn / Nguyên tắc",
+    "tags": ["management", "compliance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The HR department issued new hiring guidelines.",
+        "vi": "Phòng nhân sự ban hành hướng dẫn tuyển dụng mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0164",
+    "term": "Protocol",
+    "type": "noun",
+    "meaning_vi": "Giao thức / Quy tắc",
+    "tags": ["operation", "communication"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company has a strict protocol for handling complaints.",
+        "vi": "Công ty có giao thức nghiêm ngặt để xử lý khiếu nại."
+      }
+    ]
+  },
+  {
+    "id": "biz_0165",
+    "term": "SOP",
+    "type": "noun",
+    "meaning_vi": "Quy trình vận hành tiêu chuẩn",
+    "tags": ["operation", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "All employees must follow the SOP for safety procedures.",
+        "vi": "Tất cả nhân viên phải tuân thủ SOP cho các quy trình an toàn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0166",
+    "term": "Workflow diagram",
+    "type": "noun",
+    "meaning_vi": "Sơ đồ quy trình làm việc",
+    "tags": ["operation", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The workflow diagram helps visualize the production process.",
+        "vi": "Sơ đồ quy trình làm việc giúp hình dung quy trình sản xuất."
+      }
+    ]
+  },
+  {
+    "id": "biz_0167",
+    "term": "Gantt chart",
+    "type": "noun",
+    "meaning_vi": "Biểu đồ Gantt",
+    "tags": ["project-management", "planning"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "We use a Gantt chart to track project milestones.",
+        "vi": "Chúng tôi sử dụng biểu đồ Gantt để theo dõi các mốc quan trọng của dự án."
+      }
+    ]
+  },
+  {
+    "id": "biz_0168",
+    "term": "PERT chart",
+    "type": "noun",
+    "meaning_vi": "Biểu đồ PERT",
+    "tags": ["project-management", "planning"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "PERT charts help estimate project completion time.",
+        "vi": "Biểu đồ PERT giúp ước tính thời gian hoàn thành dự án."
+      }
+    ]
+  },
+  {
+    "id": "biz_0169",
+    "term": "Critical path",
+    "type": "noun",
+    "meaning_vi": "Đường găng",
+    "tags": ["project-management", "planning"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Identifying the critical path is essential for project scheduling.",
+        "vi": "Xác định đường găng là thiết yếu cho việc lập lịch dự án."
+      }
+    ]
+  },
+  {
+    "id": "biz_0170",
+    "term": "Milestone",
+    "type": "noun",
+    "meaning_vi": "Mốc quan trọng",
+    "tags": ["project-management", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We celebrated reaching the first major milestone.",
+        "vi": "Chúng tôi ăn mừng đạt được mốc quan trọng đầu tiên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0171",
+    "term": "Deliverable",
+    "type": "noun",
+    "meaning_vi": "Sản phẩm giao / Kết quả",
+    "tags": ["project-management", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The project deliverables include a final report and prototype.",
+        "vi": "Các sản phẩm giao của dự án bao gồm báo cáo cuối cùng và nguyên mẫu."
+      }
+    ]
+  },
+  {
+    "id": "biz_0172",
+    "term": "Backlog",
+    "type": "noun",
+    "meaning_vi": "Danh sách chờ xử lý",
+    "tags": ["project-management", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We have a large backlog of customer support tickets.",
+        "vi": "Chúng tôi có danh sách chờ xử lý lớn các phiếu hỗ trợ khách hàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0173",
+    "term": "Sprint",
+    "type": "noun",
+    "meaning_vi": "Sprint / Chu kỳ ngắn",
+    "tags": ["project-management", "agile"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The development team completed the sprint on time.",
+        "vi": "Đội phát triển hoàn thành sprint đúng hạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0174",
+    "term": "Agile",
+    "type": "adjective",
+    "meaning_vi": "Linh hoạt / Phương pháp Agile",
+    "tags": ["project-management", "methodology"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company adopted an agile approach to software development.",
+        "vi": "Công ty áp dụng phương pháp linh hoạt cho phát triển phần mềm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0175",
+    "term": "Scrum",
+    "type": "noun",
+    "meaning_vi": "Scrum / Phương pháp Scrum",
+    "tags": ["project-management", "agile"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Scrum masters facilitate the daily stand-up meetings.",
+        "vi": "Scrum master điều phối các cuộc họp đứng hàng ngày."
+      }
+    ]
+  },
+  {
+    "id": "biz_0176",
+    "term": "Kanban",
+    "type": "noun",
+    "meaning_vi": "Kanban / Bảng Kanban",
+    "tags": ["project-management", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Kanban boards help visualize workflow and bottlenecks.",
+        "vi": "Bảng Kanban giúp hình dung quy trình làm việc và điểm nghẽn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0177",
+    "term": "Waterfall",
+    "type": "noun",
+    "meaning_vi": "Mô hình thác nước",
+    "tags": ["project-management", "methodology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Traditional software projects often use the waterfall model.",
+        "vi": "Các dự án phần mềm truyền thống thường sử dụng mô hình thác nước."
+      }
+    ]
+  },
+  {
+    "id": "biz_0178",
+    "term": "DevOps",
+    "type": "noun",
+    "meaning_vi": "DevOps / Phát triển và vận hành",
+    "tags": ["technology", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "DevOps practices improve software delivery speed.",
+        "vi": "Các thực hành DevOps cải thiện tốc độ giao phần mềm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0179",
+    "term": "CI/CD",
+    "type": "noun",
+    "meaning_vi": "Tích hợp liên tục / Triển khai liên tục",
+    "tags": ["technology", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "CI/CD pipelines automate the testing and deployment process.",
+        "vi": "Đường ống CI/CD tự động hóa quy trình kiểm tra và triển khai."
+      }
+    ]
+  },
+  {
+    "id": "biz_0180",
+    "term": "Version control",
+    "type": "noun",
+    "meaning_vi": "Kiểm soát phiên bản",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Git is a popular version control system.",
+        "vi": "Git là hệ thống kiểm soát phiên bản phổ biến."
+      }
+    ]
+  },
+  {
+    "id": "biz_0181",
+    "term": "Repository",
+    "type": "noun",
+    "meaning_vi": "Kho lưu trữ",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The code is stored in a central repository.",
+        "vi": "Mã được lưu trữ trong kho lưu trữ trung tâm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0182",
+    "term": "Branch",
+    "type": "noun/verb",
+    "meaning_vi": "Nhánh / Tạo nhánh",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Developers create branches for new features.",
+        "vi": "Các nhà phát triển tạo nhánh cho các tính năng mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0183",
+    "term": "Merge",
+    "type": "verb",
+    "meaning_vi": "Hợp nhất",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "We need to merge the feature branch into the main branch.",
+        "vi": "Chúng ta cần hợp nhất nhánh tính năng vào nhánh chính."
+      }
+    ]
+  },
+  {
+    "id": "biz_0184",
+    "term": "Pull request",
+    "type": "noun",
+    "meaning_vi": "Yêu cầu kéo",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Submit a pull request to propose code changes.",
+        "vi": "Gửi yêu cầu kéo để đề xuất thay đổi mã."
+      }
+    ]
+  },
+  {
+    "id": "biz_0185",
+    "term": "Code review",
+    "type": "noun",
+    "meaning_vi": "Xem xét mã",
+    "tags": ["technology", "quality"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Code reviews ensure high-quality software development.",
+        "vi": "Xem xét mã đảm bảo phát triển phần mềm chất lượng cao."
+      }
+    ]
+  },
+  {
+    "id": "biz_0186",
+    "term": "Debugging",
+    "type": "noun",
+    "meaning_vi": "Gỡ lỗi",
+    "tags": ["technology", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Debugging is an essential part of software development.",
+        "vi": "Gỡ lỗi là một phần thiết yếu của phát triển phần mềm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0187",
+    "term": "Refactoring",
+    "type": "noun",
+    "meaning_vi": "Tái cấu trúc",
+    "tags": ["technology", "quality"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Refactoring improves code maintainability without changing functionality.",
+        "vi": "Tái cấu trúc cải thiện khả năng bảo trì mã mà không thay đổi chức năng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0188",
+    "term": "Optimization",
+    "type": "noun",
+    "meaning_vi": "Tối ưu hóa",
+    "tags": ["technology", "performance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Performance optimization is crucial for user experience.",
+        "vi": "Tối ưu hóa hiệu suất là quan trọng cho trải nghiệm người dùng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0189",
+    "term": "Benchmarking",
+    "type": "noun",
+    "meaning_vi": "Đặt tiêu chuẩn / So sánh hiệu suất",
+    "tags": ["management", "performance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Benchmarking against competitors helps identify improvement areas.",
+        "vi": "Đặt tiêu chuẩn so với đối thủ cạnh tranh giúp xác định các lĩnh vực cải thiện."
+      }
+    ]
+  },
+  {
+    "id": "biz_0190",
+    "term": "Insourcing",
+    "type": "noun",
+    "meaning_vi": "Thuê ngoài nội bộ / Tự thực hiện",
+    "tags": ["strategy", "operation"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The company decided to insource IT services instead of outsourcing.",
+        "vi": "Công ty quyết định tự thực hiện dịch vụ CNTT thay vì thuê ngoài."
+      }
+    ]
+  },
+  {
+    "id": "biz_0191",
+    "term": "Crowdsourcing",
+    "type": "noun",
+    "meaning_vi": "Thuê ngoài đám đông",
+    "tags": ["innovation", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Crowdsourcing ideas can lead to innovative solutions.",
+        "vi": "Thuê ngoài ý tưởng đám đông có thể dẫn đến các giải pháp sáng tạo."
+      }
+    ]
+  },
+  {
+    "id": "biz_0192",
+    "term": "Freelance",
+    "type": "noun/adjective",
+    "meaning_vi": "Làm việc tự do / Người làm việc tự do",
+    "tags": ["work-style", "hr"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Many companies hire freelance designers for short-term projects.",
+        "vi": "Nhiều công ty thuê nhà thiết kế tự do cho các dự án ngắn hạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0193",
+    "term": "Gig economy",
+    "type": "noun",
+    "meaning_vi": "Nền kinh tế gig",
+    "tags": ["economy", "work-style"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The gig economy has transformed traditional employment models.",
+        "vi": "Nền kinh tế gig đã chuyển đổi các mô hình việc làm truyền thống."
+      }
+    ]
+  },
+  {
+    "id": "biz_0194",
+    "term": "Telecommuting",
+    "type": "noun",
+    "meaning_vi": "Làm việc từ xa qua điện thoại",
+    "tags": ["work-style", "hr"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Telecommuting allows employees to work from home.",
+        "vi": "Làm việc từ xa cho phép nhân viên làm việc tại nhà."
+      }
+    ]
+  },
+  {
+    "id": "biz_0195",
+    "term": "Flexitime",
+    "type": "noun",
+    "meaning_vi": "Thời gian làm việc linh hoạt",
+    "tags": ["work-style", "hr"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Flexitime policies give employees control over their schedules.",
+        "vi": "Chính sách thời gian linh hoạt cho nhân viên quyền kiểm soát lịch trình của họ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0196",
+    "term": "Job sharing",
+    "type": "noun",
+    "meaning_vi": "Chia sẻ công việc",
+    "tags": ["work-style", "hr"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Job sharing allows two people to split one full-time position.",
+        "vi": "Chia sẻ công việc cho phép hai người chia một vị trí toàn thời gian."
+      }
+    ]
+  },
+  {
+    "id": "biz_0197",
+    "term": "Sabbatical",
+    "type": "noun",
+    "meaning_vi": "Nghỉ phép dài hạn",
+    "tags": ["hr", "benefits"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Some companies offer sabbaticals for employee rejuvenation.",
+        "vi": "Một số công ty cung cấp nghỉ phép dài hạn để nhân viên phục hồi."
+      }
+    ]
+  },
+  {
+    "id": "biz_0198",
+    "term": "Maternity leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ thai sản",
+    "tags": ["hr", "benefits"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "New mothers are entitled to 12 weeks of maternity leave.",
+        "vi": "Các bà mẹ mới có quyền nghỉ thai sản 12 tuần."
+      }
+    ]
+  },
+  {
+    "id": "biz_0199",
+    "term": "Paternity leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ thai sản cho nam",
+    "tags": ["hr", "benefits"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "More companies are offering paternity leave to new fathers.",
+        "vi": "Nhiều công ty hơn đang cung cấp nghỉ thai sản cho các ông bố mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0200",
+    "term": "Parental leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ phép nuôi con",
+    "tags": ["hr", "benefits"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Parental leave policies support work-life balance.",
+        "vi": "Chính sách nghỉ phép nuôi con hỗ trợ cân bằng công việc - cuộc sống."
+      }
+    ]
+  },
+  {
+    "id": "biz_0201",
+    "term": "Bereavement leave",
+    "type": "noun",
+    "meaning_vi": "Nghỉ tang",
+    "tags": ["hr", "benefits"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Employees can take bereavement leave for family funerals.",
+        "vi": "Nhân viên có thể nghỉ tang cho tang lễ gia đình."
+      }
+    ]
+  },
+  {
+    "id": "biz_0202",
+    "term": "Vacation",
+    "type": "noun",
+    "meaning_vi": "Kỳ nghỉ",
+    "tags": ["hr", "benefits"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "American employees typically get two weeks of paid vacation.",
+        "vi": "Nhân viên Mỹ thường nhận hai tuần nghỉ có lương."
+      }
+    ]
+  },
+  {
+    "id": "biz_0203",
+    "term": "Holiday",
+    "type": "noun",
+    "meaning_vi": "Ngày lễ",
+    "tags": ["hr", "benefits"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "The office is closed on national holidays.",
+        "vi": "Văn phòng đóng cửa vào các ngày lễ quốc gia."
+      }
+    ]
+  },
+  {
+    "id": "biz_0204",
+    "term": "Work-life balance",
+    "type": "noun",
+    "meaning_vi": "Cân bằng công việc - cuộc sống",
+    "tags": ["hr", "wellness"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Maintaining work-life balance is important for employee satisfaction.",
+        "vi": "Duy trì cân bằng công việc - cuộc sống là quan trọng cho sự hài lòng của nhân viên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0205",
+    "term": "Burnout",
+    "type": "noun",
+    "meaning_vi": "Kiệt sức",
+    "tags": ["hr", "wellness"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Burnout can lead to decreased productivity and health issues.",
+        "vi": "Kiệt sức có thể dẫn đến giảm năng suất và vấn đề sức khỏe."
+      }
+    ]
+  },
+  {
+    "id": "biz_0206",
+    "term": "Stress management",
+    "type": "noun",
+    "meaning_vi": "Quản lý căng thẳng",
+    "tags": ["hr", "wellness"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company offers stress management workshops.",
+        "vi": "Công ty cung cấp các hội thảo quản lý căng thẳng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0207",
+    "term": "Wellness program",
+    "type": "noun",
+    "meaning_vi": "Chương trình sức khỏe",
+    "tags": ["hr", "benefits"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The wellness program includes gym memberships and health screenings.",
+        "vi": "Chương trình sức khỏe bao gồm tư cách thành viên phòng gym và kiểm tra sức khỏe."
+      }
+    ]
+  },
+  {
+    "id": "biz_0208",
+    "term": "EAP",
+    "type": "noun",
+    "meaning_vi": "Chương trình hỗ trợ nhân viên",
+    "tags": ["hr", "wellness"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "EAP provides confidential counseling for personal issues.",
+        "vi": "EAP cung cấp tư vấn bí mật cho các vấn đề cá nhân."
+      }
+    ]
+  },
+  {
+    "id": "biz_0209",
+    "term": "Onboarding",
+    "type": "noun",
+    "meaning_vi": "Quy trình nhập môn",
+    "tags": ["hr", "recruitment"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Effective onboarding helps new employees integrate quickly.",
+        "vi": "Quy trình nhập môn hiệu quả giúp nhân viên mới hòa nhập nhanh chóng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0210",
+    "term": "Offboarding",
+    "type": "noun",
+    "meaning_vi": "Quy trình xuất môn",
+    "tags": ["hr", "management"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Offboarding procedures ensure smooth transitions when employees leave.",
+        "vi": "Quy trình xuất môn đảm bảo chuyển tiếp suôn sẻ khi nhân viên nghỉ việc."
+      }
+    ]
+  },
+  {
+    "id": "biz_0211",
+    "term": "Exit interview",
+    "type": "noun",
+    "meaning_vi": "Phỏng vấn nghỉ việc",
+    "tags": ["hr", "feedback"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Exit interviews provide valuable insights into company culture.",
+        "vi": "Phỏng vấn nghỉ việc cung cấp thông tin quý báu về văn hóa công ty."
+      }
+    ]
+  },
+  {
+    "id": "biz_0212",
+    "term": "Performance review",
+    "type": "noun",
+    "meaning_vi": "Đánh giá hiệu suất",
+    "tags": ["hr", "management"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Annual performance reviews help identify strengths and areas for improvement.",
+        "vi": "Đánh giá hiệu suất hàng năm giúp xác định điểm mạnh và lĩnh vực cần cải thiện."
+      }
+    ]
+  },
+  {
+    "id": "biz_0213",
+    "term": "360-degree feedback",
+    "type": "noun",
+    "meaning_vi": "Phản hồi 360 độ",
+    "tags": ["hr", "feedback"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "360-degree feedback includes input from peers, subordinates, and supervisors.",
+        "vi": "Phản hồi 360 độ bao gồm đầu vào từ đồng nghiệp, cấp dưới và cấp trên."
+      }
+    ]
+  },
+  {
+    "id": "biz_0214",
+    "term": "KPI",
+    "type": "noun",
+    "meaning_vi": "Chỉ số đo lường hiệu suất chính",
+    "tags": ["management", "performance"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Sales volume is a key KPI for the marketing department.",
+        "vi": "Khối lượng bán hàng là KPI chính cho phòng marketing."
+      }
+    ]
+  },
+  {
+    "id": "biz_0215",
+    "term": "Balanced scorecard",
+    "type": "noun",
+    "meaning_vi": "Bảng điểm cân bằng",
+    "tags": ["management", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The balanced scorecard measures performance across multiple dimensions.",
+        "vi": "Bảng điểm cân bằng đo lường hiệu suất trên nhiều chiều."
+      }
+    ]
+  },
+  {
+    "id": "biz_0216",
+    "term": "SWOT analysis",
+    "type": "noun",
+    "meaning_vi": "Phân tích SWOT",
+    "tags": ["strategy", "planning"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "SWOT analysis helps identify strengths, weaknesses, opportunities, and threats.",
+        "vi": "Phân tích SWOT giúp xác định điểm mạnh, điểm yếu, cơ hội và mối đe dọa."
+      }
+    ]
+  },
+  {
+    "id": "biz_0217",
+    "term": "PEST analysis",
+    "type": "noun",
+    "meaning_vi": "Phân tích PEST",
+    "tags": ["strategy", "planning"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "PEST analysis examines political, economic, social, and technological factors.",
+        "vi": "Phân tích PEST kiểm tra các yếu tố chính trị, kinh tế, xã hội và công nghệ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0218",
+    "term": "Porter's five forces",
+    "type": "noun",
+    "meaning_vi": "Năm lực lượng cạnh tranh của Porter",
+    "tags": ["strategy", "analysis"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Porter's five forces model analyzes industry competitiveness.",
+        "vi": "Mô hình năm lực lượng cạnh tranh của Porter phân tích tính cạnh tranh ngành."
+      }
+    ]
+  },
+  {
+    "id": "biz_0219",
+    "term": "BCG matrix",
+    "type": "noun",
+    "meaning_vi": "Ma trận BCG",
+    "tags": ["strategy", "portfolio"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The BCG matrix categorizes products as stars, cash cows, question marks, or dogs.",
+        "vi": "Ma trận BCG phân loại sản phẩm thành ngôi sao, bò sữa, dấu hỏi hoặc chó."
+      }
+    ]
+  },
+  {
+    "id": "biz_0220",
+    "term": "Ansoff matrix",
+    "type": "noun",
+    "meaning_vi": "Ma trận Ansoff",
+    "tags": ["strategy", "growth"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "The Ansoff matrix outlines growth strategies for businesses.",
+        "vi": "Ma trận Ansoff phác thảo chiến lược tăng trưởng cho doanh nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0221",
+    "term": "McKinsey 7S",
+    "type": "noun",
+    "meaning_vi": "Mô hình 7S của McKinsey",
+    "tags": ["strategy", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "McKinsey 7S framework analyzes organizational effectiveness.",
+        "vi": "Khung 7S của McKinsey phân tích hiệu quả tổ chức."
+      }
+    ]
+  },
+  {
+    "id": "biz_0222",
+    "term": "Organizational structure",
+    "type": "noun",
+    "meaning_vi": "Cấu trúc tổ chức",
+    "tags": ["management", "organization"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company's organizational structure supports efficient decision-making.",
+        "vi": "Cấu trúc tổ chức của công ty hỗ trợ ra quyết định hiệu quả."
+      }
+    ]
+  },
+  {
+    "id": "biz_0223",
+    "term": "Flat organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức phẳng",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Flat organizations have fewer management layers.",
+        "vi": "Tổ chức phẳng có ít lớp quản lý hơn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0224",
+    "term": "Hierarchical organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức phân cấp",
+    "tags": ["management", "organization"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Hierarchical organizations have clear chains of command.",
+        "vi": "Tổ chức phân cấp có chuỗi chỉ huy rõ ràng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0225",
+    "term": "Matrix organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức ma trận",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Matrix organizations combine functional and project-based structures.",
+        "vi": "Tổ chức ma trận kết hợp cấu trúc chức năng và dựa trên dự án."
+      }
+    ]
+  },
+  {
+    "id": "biz_0226",
+    "term": "Functional structure",
+    "type": "noun",
+    "meaning_vi": "Cấu trúc chức năng",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Functional structure groups employees by specialized functions.",
+        "vi": "Cấu trúc chức năng nhóm nhân viên theo chức năng chuyên môn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0227",
+    "term": "Divisional structure",
+    "type": "noun",
+    "meaning_vi": "Cấu trúc phân khu",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Divisional structure organizes around products or geographic areas.",
+        "vi": "Cấu trúc phân khu tổ chức xung quanh sản phẩm hoặc khu vực địa lý."
+      }
+    ]
+  },
+  {
+    "id": "biz_0228",
+    "term": "Network organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức mạng lưới",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Network organizations rely on alliances and partnerships.",
+        "vi": "Tổ chức mạng lưới dựa vào liên minh và quan hệ đối tác."
+      }
+    ]
+  },
+  {
+    "id": "biz_0229",
+    "term": "Virtual organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức ảo",
+    "tags": ["management", "organization"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Virtual organizations operate without physical offices.",
+        "vi": "Tổ chức ảo hoạt động mà không có văn phòng vật lý."
+      }
+    ]
+  },
+  {
+    "id": "biz_0230",
+    "term": "Learning organization",
+    "type": "noun",
+    "meaning_vi": "Tổ chức học tập",
+    "tags": ["management", "development"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Learning organizations continuously adapt and improve.",
+        "vi": "Tổ chức học tập liên tục thích ứng và cải thiện."
+      }
+    ]
+  },
+  {
+    "id": "biz_0231",
+    "term": "Change management",
+    "type": "noun",
+    "meaning_vi": "Quản lý thay đổi",
+    "tags": ["management", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Effective change management minimizes resistance to new initiatives.",
+        "vi": "Quản lý thay đổi hiệu quả giảm thiểu sự phản kháng đối với các sáng kiến mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0232",
+    "term": "Organizational development",
+    "type": "noun",
+    "meaning_vi": "Phát triển tổ chức",
+    "tags": ["management", "development"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Organizational development focuses on improving workplace effectiveness.",
+        "vi": "Phát triển tổ chức tập trung vào cải thiện hiệu quả nơi làm việc."
+      }
+    ]
+  },
+  {
+    "id": "biz_0233",
+    "term": "Talent management",
+    "type": "noun",
+    "meaning_vi": "Quản lý nhân tài",
+    "tags": ["hr", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Talent management ensures the right people are in the right roles.",
+        "vi": "Quản lý nhân tài đảm bảo đúng người ở đúng vị trí."
+      }
+    ]
+  },
+  {
+    "id": "biz_0234",
+    "term": "Succession planning",
+    "type": "noun",
+    "meaning_vi": "Lập kế hoạch kế vị",
+    "tags": ["hr", "leadership"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Succession planning identifies future leaders within the organization.",
+        "vi": "Lập kế hoạch kế vị xác định các nhà lãnh đạo tương lai trong tổ chức."
+      }
+    ]
+  },
+  {
+    "id": "biz_0235",
+    "term": "Workforce planning",
+    "type": "noun",
+    "meaning_vi": "Lập kế hoạch nhân lực",
+    "tags": ["hr", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Workforce planning aligns staffing with business goals.",
+        "vi": "Lập kế hoạch nhân lực điều chỉnh nhân sự với mục tiêu kinh doanh."
+      }
+    ]
+  },
+  {
+    "id": "biz_0236",
+    "term": "Diversity and inclusion",
+    "type": "noun",
+    "meaning_vi": "Đa dạng và hòa nhập",
+    "tags": ["hr", "culture"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Diversity and inclusion initiatives promote equal opportunities.",
+        "vi": "Các sáng kiến đa dạng và hòa nhập thúc đẩy cơ hội bình đẳng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0237",
+    "term": "Affirmative action",
+    "type": "noun",
+    "meaning_vi": "Hành động khẳng định",
+    "tags": ["hr", "legal"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Affirmative action policies address historical discrimination.",
+        "vi": "Chính sách hành động khẳng định giải quyết phân biệt đối xử lịch sử."
+      }
+    ]
+  },
+  {
+    "id": "biz_0238",
+    "term": "Harassment",
+    "type": "noun",
+    "meaning_vi": "Quấy rối",
+    "tags": ["hr", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "The company has a zero-tolerance policy for harassment.",
+        "vi": "Công ty có chính sách không khoan nhượng đối với quấy rối."
+      }
+    ]
+  },
+  {
+    "id": "biz_0239",
+    "term": "Discrimination",
+    "type": "noun",
+    "meaning_vi": "Phân biệt đối xử",
+    "tags": ["hr", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Discrimination based on race or gender is illegal.",
+        "vi": "Phân biệt đối xử dựa trên chủng tộc hoặc giới tính là bất hợp pháp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0240",
+    "term": "Equal opportunity",
+    "type": "noun",
+    "meaning_vi": "Cơ hội bình đẳng",
+    "tags": ["hr", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Equal opportunity employers do not discriminate in hiring.",
+        "vi": "Nhà tuyển dụng cơ hội bình đẳng không phân biệt đối xử trong tuyển dụng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0241",
+    "term": "Workplace safety",
+    "type": "noun",
+    "meaning_vi": "An toàn nơi làm việc",
+    "tags": ["hr", "legal"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Workplace safety regulations protect employees from hazards.",
+        "vi": "Quy định an toàn nơi làm việc bảo vệ nhân viên khỏi nguy hiểm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0242",
+    "term": "Occupational health",
+    "type": "noun",
+    "meaning_vi": "Sức khỏe nghề nghiệp",
+    "tags": ["hr", "wellness"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Occupational health programs prevent work-related illnesses.",
+        "vi": "Các chương trình sức khỏe nghề nghiệp ngăn ngừa bệnh tật liên quan đến công việc."
+      }
+    ]
+  },
+  {
+    "id": "biz_0243",
+    "term": "Ergonomics",
+    "type": "noun",
+    "meaning_vi": "Công thái học",
+    "tags": ["office", "wellness"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Ergonomic chairs reduce the risk of back injuries.",
+        "vi": "Ghế công thái học giảm nguy cơ chấn thương lưng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0244",
+    "term": "OSHA",
+    "type": "noun",
+    "meaning_vi": "Cục An toàn và Sức khỏe Nghề nghiệp",
+    "tags": ["legal", "safety"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "OSHA sets standards for workplace safety in the US.",
+        "vi": "OSHA thiết lập tiêu chuẩn an toàn nơi làm việc ở Mỹ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0245",
+    "term": "ISO",
+    "type": "noun",
+    "meaning_vi": "Tổ chức Tiêu chuẩn Quốc tế",
+    "tags": ["quality", "standards"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "ISO 9001 certifies quality management systems.",
+        "vi": "ISO 9001 chứng nhận hệ thống quản lý chất lượng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0246",
+    "term": "Quality assurance",
+    "type": "noun",
+    "meaning_vi": "Đảm bảo chất lượng",
+    "tags": ["quality", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Quality assurance processes prevent defects in products.",
+        "vi": "Quy trình đảm bảo chất lượng ngăn ngừa khuyết tật trong sản phẩm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0247",
+    "term": "Quality control",
+    "type": "noun",
+    "meaning_vi": "Kiểm soát chất lượng",
+    "tags": ["quality", "operation"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Quality control inspectors check products before shipment.",
+        "vi": "Kiểm soát viên chất lượng kiểm tra sản phẩm trước khi vận chuyển."
+      }
+    ]
+  },
+  {
+    "id": "biz_0248",
+    "term": "Six Sigma",
+    "type": "noun",
+    "meaning_vi": "Six Sigma",
+    "tags": ["quality", "methodology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Six Sigma methodology aims to reduce defects to near zero.",
+        "vi": "Phương pháp Six Sigma nhằm giảm khuyết tật gần bằng không."
+      }
+    ]
+  },
+  {
+    "id": "biz_0249",
+    "term": "Lean manufacturing",
+    "type": "noun",
+    "meaning_vi": "Sản xuất tinh gọn",
+    "tags": ["operation", "efficiency"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Lean manufacturing eliminates waste in production processes.",
+        "vi": "Sản xuất tinh gọn loại bỏ lãng phí trong quy trình sản xuất."
+      }
+    ]
+  },
+  {
+    "id": "biz_0250",
+    "term": "Just-in-time",
+    "type": "noun",
+    "meaning_vi": "Đúng lúc",
+    "tags": ["operation", "logistics"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Just-in-time inventory reduces storage costs.",
+        "vi": "Hàng tồn kho đúng lúc giảm chi phí lưu trữ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0251",
+    "term": "Supply chain",
+    "type": "noun",
+    "meaning_vi": "Chuỗi cung ứng",
+    "tags": ["operation", "logistics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Supply chain management coordinates the flow of goods and services.",
+        "vi": "Quản lý chuỗi cung ứng điều phối luồng hàng hóa và dịch vụ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0252",
+    "term": "Procurement",
+    "type": "noun",
+    "meaning_vi": "Thu mua",
+    "tags": ["operation", "purchasing"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Procurement processes ensure cost-effective purchasing.",
+        "vi": "Quy trình thu mua đảm bảo mua sắm hiệu quả về chi phí."
+      }
+    ]
+  },
+  {
+    "id": "biz_0253",
+    "term": "Vendor",
+    "type": "noun",
+    "meaning_vi": "Nhà cung cấp",
+    "tags": ["operation", "supplier"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "We evaluate vendors based on quality and price.",
+        "vi": "Chúng tôi đánh giá nhà cung cấp dựa trên chất lượng và giá cả."
+      }
+    ]
+  },
+  {
+    "id": "biz_0254",
+    "term": "Distributor",
+    "type": "noun",
+    "meaning_vi": "Nhà phân phối",
+    "tags": ["operation", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Distributors help get products to retail outlets.",
+        "vi": "Nhà phân phối giúp đưa sản phẩm đến cửa hàng bán lẻ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0255",
+    "term": "Wholesaler",
+    "type": "noun",
+    "meaning_vi": "Nhà bán buôn",
+    "tags": ["operation", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Wholesalers buy in bulk and sell to retailers.",
+        "vi": "Nhà bán buôn mua số lượng lớn và bán cho nhà bán lẻ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0256",
+    "term": "E-commerce",
+    "type": "noun",
+    "meaning_vi": "Thương mại điện tử",
+    "tags": ["business", "technology"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "E-commerce has revolutionized retail shopping.",
+        "vi": "Thương mại điện tử đã cách mạng hóa mua sắm bán lẻ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0257",
+    "term": "B2B",
+    "type": "noun",
+    "meaning_vi": "Doanh nghiệp với doanh nghiệp",
+    "tags": ["business", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "B2B sales involve transactions between businesses.",
+        "vi": "Bán hàng B2B liên quan đến giao dịch giữa các doanh nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0258",
+    "term": "B2C",
+    "type": "noun",
+    "meaning_vi": "Doanh nghiệp với người tiêu dùng",
+    "tags": ["business", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "B2C companies focus on direct consumer sales.",
+        "vi": "Các công ty B2C tập trung vào bán hàng trực tiếp cho người tiêu dùng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0259",
+    "term": "C2C",
+    "type": "noun",
+    "meaning_vi": "Người tiêu dùng với người tiêu dùng",
+    "tags": ["business", "marketplace"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "C2C platforms connect buyers and sellers directly.",
+        "vi": "Nền tảng C2C kết nối người mua và người bán trực tiếp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0260",
+    "term": "Marketplace",
+    "type": "noun",
+    "meaning_vi": "Chợ trực tuyến",
+    "tags": ["business", "e-commerce"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Amazon is a popular online marketplace.",
+        "vi": "Amazon là chợ trực tuyến phổ biến."
+      }
+    ]
+  },
+  {
+    "id": "biz_0261",
+    "term": "Platform",
+    "type": "noun",
+    "meaning_vi": "Nền tảng",
+    "tags": ["business", "technology"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Uber is a ride-sharing platform.",
+        "vi": "Uber là nền tảng chia sẻ xe."
+      }
+    ]
+  },
+  {
+    "id": "biz_0262",
+    "term": "Freemium",
+    "type": "noun",
+    "meaning_vi": "Mô hình freemium",
+    "tags": ["business", "pricing"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Freemium models offer basic services for free and premium features for a fee.",
+        "vi": "Mô hình freemium cung cấp dịch vụ cơ bản miễn phí và tính năng cao cấp có phí."
+      }
+    ]
+  },
+  {
+    "id": "biz_0263",
+    "term": "Subscription model",
+    "type": "noun",
+    "meaning_vi": "Mô hình đăng ký",
+    "tags": ["business", "pricing"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Netflix uses a subscription model for content delivery.",
+        "vi": "Netflix sử dụng mô hình đăng ký để cung cấp nội dung."
+      }
+    ]
+  },
+  {
+    "id": "biz_0264",
+    "term": "Viral marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị lan truyền",
+    "tags": ["marketing", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Viral marketing relies on word-of-mouth sharing.",
+        "vi": "Tiếp thị lan truyền dựa vào chia sẻ truyền miệng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0265",
+    "term": "Guerrilla marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị du kích",
+    "tags": ["marketing", "strategy"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Guerrilla marketing uses unconventional, low-cost tactics.",
+        "vi": "Tiếp thị du kích sử dụng chiến thuật không thông thường, chi phí thấp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0266",
+    "term": "Inbound marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị inbound",
+    "tags": ["marketing", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Inbound marketing attracts customers through valuable content.",
+        "vi": "Tiếp thị inbound thu hút khách hàng thông qua nội dung có giá trị."
+      }
+    ]
+  },
+  {
+    "id": "biz_0267",
+    "term": "Outbound marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị outbound",
+    "tags": ["marketing", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Outbound marketing includes cold calling and direct mail.",
+        "vi": "Tiếp thị outbound bao gồm gọi điện lạnh và gửi thư trực tiếp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0268",
+    "term": "Content marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị nội dung",
+    "tags": ["marketing", "strategy"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Content marketing builds trust through educational materials.",
+        "vi": "Tiếp thị nội dung xây dựng lòng tin thông qua tài liệu giáo dục."
+      }
+    ]
+  },
+  {
+    "id": "biz_0269",
+    "term": "SEO",
+    "type": "noun",
+    "meaning_vi": "Tối ưu hóa công cụ tìm kiếm",
+    "tags": ["marketing", "digital"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "SEO improves website visibility in search results.",
+        "vi": "SEO cải thiện khả năng hiển thị trang web trong kết quả tìm kiếm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0270",
+    "term": "SEM",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị công cụ tìm kiếm",
+    "tags": ["marketing", "digital"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "SEM uses paid advertising to increase search visibility.",
+        "vi": "SEM sử dụng quảng cáo trả phí để tăng khả năng hiển thị tìm kiếm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0271",
+    "term": "PPC",
+    "type": "noun",
+    "meaning_vi": "Trả tiền cho mỗi nhấp chuột",
+    "tags": ["marketing", "digital"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "PPC campaigns charge advertisers for each click on their ads.",
+        "vi": "Chiến dịch PPC tính phí nhà quảng cáo cho mỗi nhấp chuột vào quảng cáo của họ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0272",
+    "term": "Affiliate marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị liên kết",
+    "tags": ["marketing", "digital"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Affiliate marketing rewards partners for driving sales.",
+        "vi": "Tiếp thị liên kết thưởng cho đối tác vì thúc đẩy doanh số."
+      }
+    ]
+  },
+  {
+    "id": "biz_0273",
+    "term": "Influencer marketing",
+    "type": "noun",
+    "meaning_vi": "Tiếp thị người ảnh hưởng",
+    "tags": ["marketing", "social"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Influencer marketing leverages social media personalities.",
+        "vi": "Tiếp thị người ảnh hưởng tận dụng các nhân vật mạng xã hội."
+      }
+    ]
+  },
+  {
+    "id": "biz_0274",
+    "term": "Brand awareness",
+    "type": "noun",
+    "meaning_vi": "Nhận thức thương hiệu",
+    "tags": ["marketing", "branding"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Brand awareness campaigns introduce products to new audiences.",
+        "vi": "Chiến dịch nhận thức thương hiệu giới thiệu sản phẩm cho đối tượng mới."
+      }
+    ]
+  },
+  {
+    "id": "biz_0275",
+    "term": "Brand loyalty",
+    "type": "noun",
+    "meaning_vi": "Trung thành thương hiệu",
+    "tags": ["marketing", "customer"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Brand loyalty encourages repeat purchases.",
+        "vi": "Trung thành thương hiệu khuyến khích mua lặp lại."
+      }
+    ]
+  },
+  {
+    "id": "biz_0276",
+    "term": "Customer acquisition",
+    "type": "noun",
+    "meaning_vi": "Thu hút khách hàng",
+    "tags": ["marketing", "sales"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Customer acquisition costs must be balanced with lifetime value.",
+        "vi": "Chi phí thu hút khách hàng phải cân bằng với giá trị suốt đời."
+      }
+    ]
+  },
+  {
+    "id": "biz_0277",
+    "term": "Customer retention",
+    "type": "noun",
+    "meaning_vi": "Giữ chân khách hàng",
+    "tags": ["marketing", "customer"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Customer retention strategies reduce churn.",
+        "vi": "Chiến lược giữ chân khách hàng giảm tỷ lệ rời bỏ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0278",
+    "term": "Customer lifetime value",
+    "type": "noun",
+    "meaning_vi": "Giá trị khách hàng suốt đời",
+    "tags": ["marketing", "finance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Customer lifetime value measures long-term profitability.",
+        "vi": "Giá trị khách hàng suốt đời đo lường lợi nhuận dài hạn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0279",
+    "term": "Churn rate",
+    "type": "noun",
+    "meaning_vi": "Tỷ lệ rời bỏ",
+    "tags": ["marketing", "analytics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "High churn rates indicate customer dissatisfaction.",
+        "vi": "Tỷ lệ rời bỏ cao cho thấy sự không hài lòng của khách hàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0280",
+    "term": "Net promoter score",
+    "type": "noun",
+    "meaning_vi": "Điểm số người ủng hộ ròng",
+    "tags": ["marketing", "analytics"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Net promoter score measures customer loyalty and satisfaction.",
+        "vi": "Điểm số người ủng hộ ròng đo lường lòng trung thành và sự hài lòng của khách hàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0281",
+    "term": "Customer satisfaction",
+    "type": "noun",
+    "meaning_vi": "Sự hài lòng của khách hàng",
+    "tags": ["marketing", "service"],
+    "level": "beginner",
+    "examples": [
+      {
+        "en": "Customer satisfaction surveys help improve service quality.",
+        "vi": "Khảo sát sự hài lòng của khách hàng giúp cải thiện chất lượng dịch vụ."
+      }
+    ]
+  },
+  {
+    "id": "biz_0282",
+    "term": "User experience",
+    "type": "noun",
+    "meaning_vi": "Trải nghiệm người dùng",
+    "tags": ["design", "customer"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "User experience design focuses on intuitive interfaces.",
+        "vi": "Thiết kế trải nghiệm người dùng tập trung vào giao diện trực quan."
+      }
+    ]
+  },
+  {
+    "id": "biz_0283",
+    "term": "User interface",
+    "type": "noun",
+    "meaning_vi": "Giao diện người dùng",
+    "tags": ["design", "technology"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "User interface design affects how users interact with products.",
+        "vi": "Thiết kế giao diện người dùng ảnh hưởng đến cách người dùng tương tác với sản phẩm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0284",
+    "term": "Conversion rate",
+    "type": "noun",
+    "meaning_vi": "Tỷ lệ chuyển đổi",
+    "tags": ["marketing", "analytics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Conversion rate measures the percentage of visitors who take action.",
+        "vi": "Tỷ lệ chuyển đổi đo lường tỷ lệ phần trăm khách truy cập thực hiện hành động."
+      }
+    ]
+  },
+  {
+    "id": "biz_0285",
+    "term": "Click-through rate",
+    "type": "noun",
+    "meaning_vi": "Tỷ lệ nhấp chuột",
+    "tags": ["marketing", "analytics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Click-through rate indicates ad effectiveness.",
+        "vi": "Tỷ lệ nhấp chuột cho thấy hiệu quả quảng cáo."
+      }
+    ]
+  },
+  {
+    "id": "biz_0286",
+    "term": "Bounce rate",
+    "type": "noun",
+    "meaning_vi": "Tỷ lệ thoát",
+    "tags": ["marketing", "analytics"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "High bounce rates suggest website content issues.",
+        "vi": "Tỷ lệ thoát cao gợi ý vấn đề nội dung trang web."
+      }
+    ]
+  },
+  {
+    "id": "biz_0287",
+    "term": "Engagement",
+    "type": "noun",
+    "meaning_vi": "Tương tác",
+    "tags": ["marketing", "social"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Social media engagement measures audience interaction.",
+        "vi": "Tương tác mạng xã hội đo lường tương tác của đối tượng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0288",
+    "term": "Analytics",
+    "type": "noun",
+    "meaning_vi": "Phân tích",
+    "tags": ["marketing", "data"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Analytics tools provide insights into user behavior.",
+        "vi": "Công cụ phân tích cung cấp thông tin chi tiết về hành vi người dùng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0289",
+    "term": "Big data",
+    "type": "noun",
+    "meaning_vi": "Dữ liệu lớn",
+    "tags": ["technology", "data"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Big data analytics helps businesses make informed decisions.",
+        "vi": "Phân tích dữ liệu lớn giúp doanh nghiệp đưa ra quyết định sáng suốt."
+      }
+    ]
+  },
+  {
+    "id": "biz_0290",
+    "term": "Data mining",
+    "type": "noun",
+    "meaning_vi": "Khai thác dữ liệu",
+    "tags": ["technology", "data"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Data mining uncovers patterns in large datasets.",
+        "vi": "Khai thác dữ liệu phát hiện các mẫu trong tập dữ liệu lớn."
+      }
+    ]
+  },
+  {
+    "id": "biz_0291",
+    "term": "Machine learning",
+    "type": "noun",
+    "meaning_vi": "Học máy",
+    "tags": ["technology", "ai"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Machine learning algorithms improve with experience.",
+        "vi": "Thuật toán học máy cải thiện với kinh nghiệm."
+      }
+    ]
+  },
+  {
+    "id": "biz_0292",
+    "term": "Artificial intelligence",
+    "type": "noun",
+    "meaning_vi": "Trí tuệ nhân tạo",
+    "tags": ["technology", "ai"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Artificial intelligence automates complex tasks.",
+        "vi": "Trí tuệ nhân tạo tự động hóa các nhiệm vụ phức tạp."
+      }
+    ]
+  },
+  {
+    "id": "biz_0293",
+    "term": "Blockchain",
+    "type": "noun",
+    "meaning_vi": "Chuỗi khối",
+    "tags": ["technology", "finance"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Blockchain technology enables secure, transparent transactions.",
+        "vi": "Công nghệ chuỗi khối cho phép giao dịch an toàn, minh bạch."
+      }
+    ]
+  },
+  {
+    "id": "biz_0294",
+    "term": "Cryptocurrency",
+    "type": "noun",
+    "meaning_vi": "Tiền điện tử",
+    "tags": ["finance", "technology"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Bitcoin is the most well-known cryptocurrency.",
+        "vi": "Bitcoin là tiền điện tử nổi tiếng nhất."
+      }
+    ]
+  },
+  {
+    "id": "biz_0295",
+    "term": "Fintech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ tài chính",
+    "tags": ["finance", "technology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Fintech innovations are transforming banking services.",
+        "vi": "Đổi mới fintech đang chuyển đổi dịch vụ ngân hàng."
+      }
+    ]
+  },
+  {
+    "id": "biz_0296",
+    "term": "Insurtech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ bảo hiểm",
+    "tags": ["insurance", "technology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Insurtech companies use AI to assess risk.",
+        "vi": "Các công ty insurtech sử dụng AI để đánh giá rủi ro."
+      }
+    ]
+  },
+  {
+    "id": "biz_0297",
+    "term": "Proptech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ bất động sản",
+    "tags": ["real-estate", "technology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Proptech solutions streamline property management.",
+        "vi": "Giải pháp proptech hợp lý hóa quản lý bất động sản."
+      }
+    ]
+  },
+  {
+    "id": "biz_0298",
+    "term": "Regtech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ quy định",
+    "tags": ["compliance", "technology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Regtech helps companies comply with regulatory requirements.",
+        "vi": "Regtech giúp các công ty tuân thủ yêu cầu quy định."
+      }
+    ]
+  },
+  {
+    "id": "biz_0299",
+    "term": "Healthtech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ sức khỏe",
+    "tags": ["healthcare", "technology"],
+    "level": "advanced",
+    "examples": [
+      {
+        "en": "Healthtech innovations improve patient care.",
+        "vi": "Đổi mới healthtech cải thiện chăm sóc bệnh nhân."
+      }
+    ]
+  },
+  {
+    "id": "biz_0300",
+    "term": "Edtech",
+    "type": "noun",
+    "meaning_vi": "Công nghệ giáo dục",
+    "tags": ["education", "technology"],
+    "level": "intermediate",
+    "examples": [
+      {
+        "en": "Edtech platforms offer online learning opportunities.",
+        "vi": "Nền tảng edtech cung cấp cơ hội học tập trực tuyến."
+      }
+    ]
+  }
+]
