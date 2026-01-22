@@ -21,7 +21,8 @@ const getNextUnusedWords = async (limit) => {
     }, {
         _id: 1,
         term: 1,
-        meaning_vi: 1
+        meaning_vi: 1,
+        examples: 1
     }).limit(limit);
     return words;
 }

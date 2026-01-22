@@ -32,10 +32,6 @@ app.set('port', port);
 connectDB();
 
 
-
-
-// Start a cron job
-
 // Convert cron time  0 7 * * * from UTC to +7 timezone
 const convertCronTime = (cronExpression) => {
   const [second,minute, hour, day, month, dayOfWeek] = cronExpression.split(' ');
@@ -43,8 +39,8 @@ const convertCronTime = (cronExpression) => {
   return `${second} ${minute} ${newHour} ${day} ${month} ${dayOfWeek}`;
 };
 
+// Start a cron job
 const sendDailyWordTask = cron.schedule(convertCronTime('0 0 7 * * *'), () => {
-  // console.log('Cron job running every minute at', new Date().toLocaleTimeString());
   sendVocab();
 });
 
